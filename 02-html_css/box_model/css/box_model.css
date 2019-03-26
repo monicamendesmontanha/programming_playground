@@ -1,3 +1,9 @@
+
+/* Turn on the new border-box to all page */
+/* * {
+  box-sizing: border-box;
+} */
+
 .old {
   width: 300px;
   height: 300px;
