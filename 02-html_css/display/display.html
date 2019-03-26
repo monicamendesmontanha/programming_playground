@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Display Demo</title>
+    <link rel="stylesheet" href="css/display.css">
+  </head>
+  <body>
 
-  <!-- ul.bros>li.brother*4 + TAB -->
-  <ul class="bros">
-    <li class="brother"></li>
-    <li class="brother"></li>
-    <li class="brother"></li>
-    <li class="brother"></li>
-  </ul>
+    <h1>Demo</h1>
 
-  <!-- ul.bros>li.brother*4>p>span.this-is-a-bit-much + TAB -->
-  <ul class="bros">
-    <li class="brother">
-      <p><span class="this-is-a-bit-much"></span></p>
-    </li>
-    <li class="brother">
-      <p><span class="this-is-a-bit-much"></span></p>
-    </li>
-    <li class="brother">
-      <p><span class="this-is-a-bit-much"></span></p>
-    </li>
-    <li class="brother">
-      <p><span class="this-is-a-bit-much"></span></p>
-    </li>
-  </ul>
+    <div class="box">
+      This is a box
+    </div>
+    <div class="box block">This is a display block box</div>
 
-  <!-- ul.bros>li.brother*4>p>span.this-is-a-bit-much>lorem + TAB -->
+    <div class="box inline">This is a display inline box</div>
+    <div class="box inline">This is a display inline box</div>
+    <div class="box inline">This is a display inline box</div>
 
-  <ul class="bros">
-    <li class="brother">
-      <p><span class="this-is-a-bit-much">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempora reiciendis sint similique voluptates? Ipsa, nemo saepe? Ea, eveniet architecto, dolor deleniti qui doloribus earum delectus at, saepe autem mollitia?</span></p>
-    </li>
-    <li class="brother">
-      <p><span class="this-is-a-bit-much">Quisquam, voluptatum exercitationem sint recusandae accusamus voluptas aspernatur. Fugiat repellendus molestiae sit delectus iure quia, facilis quos natus perspiciatis cumque sunt explicabo voluptate pariatur at nam accusantium labore dolor nulla.</span></p>
-    </li>
-    <li class="brother">
-      <p><span class="this-is-a-bit-much">Sit expedita quo nostrum eaque! Nisi ut iure aut omnis ducimus ab accusantium magnam facilis blanditiis? Id ipsam error voluptatibus beatae, odit earum quaerat dolor laudantium corrupti autem, explicabo nesciunt?</span></p>
-    </li>
-    <li class="brother">
-      <p><span class="this-is-a-bit-much">Obcaecati optio laboriosam qui adipisci sit voluptatem aliquam, voluptatum officia sequi minus. Impedit nesciunt quas atque pariatur dolore praesentium quibusdam, reprehenderit at, quisquam consequatur eligendi tenetur. Nulla, quia! Doloribus, commodi.</span></p>
-    </li>
-  </ul>
+    <div class="box inline-block">This is a display inline-block box</div>
+    <div class="box inline-block">This is a display inline-block box</div>
+    <div class="box inline-block">This is a display inline-block box</div>
 
+    <div class="box none">This is the none box</div>
 
-</body>
+    <div class="box">This is the next box</div>
+
+    <div class="box visibility-hidden">This is a visibility box</div>
+
+    <div class="box">This is the next box</div>
+
+    <div class="box spooky">Mouse over me<span>spooky</span></div>
+
+  </body>
 </html>
