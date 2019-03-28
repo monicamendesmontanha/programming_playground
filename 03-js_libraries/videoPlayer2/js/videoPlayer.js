@@ -16,24 +16,30 @@ Make sure that you use your browser developer tools to make debugging easier whi
 */
 
 
-const $links = $('li a'); // const links = document.querySelectorAll( "li a" );
-console.log( $links );
+// const $links = $('li a'); // const links = document.querySelectorAll( "li a" );
+// console.log( $links );
 
-for(let i = 0 ; i < $links.length ; i++ ) {
+// for(let i = 0 ; i < $links.length ; i++ ) {
 
-  const $link = $( $links[i]); //Turn the vannila DOM node back into a jquery object
-  const url = $link.attr('href');   //const url = $links[i].getAttribute('href');
+//   const $link = $( $links[i]); //Turn the vannila DOM node back into a jquery object
+//   const url = $link.attr('href');   //const url = $links[i].getAttribute('href');
 
-  const thumbnailURL = youtube.generateThumbnailUrl( url );
+//   const thumbnailURL = youtube.generateThumbnailUrl( url );
 
-  // const $thumbnail = $('<img>'); //const thumbnail = document.createElement('img');
-  // $thumbnail.attr('src', thumbnailURL); //thumbnail.setAttribute('src', thumbnailURL);
+//   // const $thumbnail = $('<img>'); //const thumbnail = document.createElement('img');
+//   // $thumbnail.attr('src', thumbnailURL); //thumbnail.setAttribute('src', thumbnailURL);
 
-  //chaining:
-  const $thumbnail = $('<img>').attr('src', thumbnailURL);
+//   //chaining:
+//   const $thumbnail = $('<img>').attr('src', thumbnailURL);
 
-  $link.append($thumbnail); //$links[i].appendChild(thumbnail)
+//   $link.append($thumbnail); //$links[i].appendChild(thumbnail)
 
 
-  console.log($thumbnail);
-};
+//   console.log($thumbnail);
+// };
+
+
+// faster solution
+$('li a').each(function () {
+  $(this).append($('<img>').attr('src', youtube.generateThumbnailUrl( $(this).attr('href') )));
+});
