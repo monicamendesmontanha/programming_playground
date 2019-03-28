@@ -1,6 +1,7 @@
-console.log("%c ----JQuery Video Player----", "color: blue; background: yellow");
+console.log("%c ----DOM API Video Player----", "color: blue; background: yellow");
 
 /*
+jQuery: Exercise 1
 Making a Video Player with the DOM API
 In this exercise, you'll be turning the below list of linked titles into a list of linked thumbnails,
 using JavaScript DOM manipulation and the functions from the youtube.JS library read documentation.
