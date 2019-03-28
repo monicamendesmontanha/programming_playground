@@ -1,5 +1,4 @@
 console.log("%c ----JQuery Video Player 03----", "color: blue; background: yellow");
-
 /*
 jQuery: Exercise 3
 Exercise: jQuery Events & Animation
@@ -24,4 +23,23 @@ As a bonus, try to make the video watcher <div> fade in using jQuery.
 Make sure that you use your browser developer tools to make debugging easier while working on this. Check for errors, and use console.log() to figure out how far your code makes it, and what the values of your variables are along the way.
 */
 
+const $links = $('li a');
 
+const thumbnailify = function($a){
+  const url = $a.attr('href');
+  const thumbnailURL = youtube.generateThumbnailUrl( url );
+  const $thumbnail = $('<img>').attr('src', thumbnailURL);
+  $a.append($thumbnail);
+
+  $thumbnail.on('click', function(event) {       //.on() = .addEventListener
+    event.preventDefault();   // stay on the same page -- don`t follow the link
+    console.log(`yes click detected`);
+  });
+}
+
+
+for(let i = 0 ; i < $links.length ; i++ ) {
+
+  const $link = $( $links[i] );
+  thumbnailify( $link );
+}
