@@ -33,7 +33,8 @@ const thumbnailify = function($a){
 
   $thumbnail.on('click', function(event) {       //.on() = .addEventListener
     event.preventDefault();   // stay on the same page -- don`t follow the link
-    console.log(`yes click detected`);
+    // insert video into the page
+    $('#player').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/xOCurBYI_gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
   });
 }
 
