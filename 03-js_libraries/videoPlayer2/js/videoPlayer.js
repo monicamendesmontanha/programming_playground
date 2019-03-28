@@ -15,19 +15,25 @@ Make sure that you use your browser developer tools to make debugging easier whi
 
 */
 
-const links = document.querySelectorAll( "li a" ); //Create an array of every link on the page using document.querySelectorAll(cssSelector)
-console.log( links );
 
-for(let i = 0 ; i < links.length ; i++ ) { // Iterate through the array. In each iteration of the loop:
-  //console.log(links[i])
-  const url = links[i].getAttribute('href');
-  //console.log(url);
+const $links = $('li a'); // const links = document.querySelectorAll( "li a" );
+console.log( $links );
+
+for(let i = 0 ; i < $links.length ; i++ ) {
+
+  const $link = $( $links[i]); //Turn the vannila DOM node back into a jquery object
+  const url = $link.attr('href');   //const url = $links[i].getAttribute('href');
+
   const thumbnailURL = youtube.generateThumbnailUrl( url );
 
-  const thumbnail = document.createElement('img');
-  thumbnail.setAttribute('src', thumbnailURL);
+  // const $thumbnail = $('<img>'); //const thumbnail = document.createElement('img');
+  // $thumbnail.attr('src', thumbnailURL); //thumbnail.setAttribute('src', thumbnailURL);
 
-  links[i].appendChild(thumbnail)
+  //chaining:
+  const $thumbnail = $('<img>').attr('src', thumbnailURL);
 
-  console.log(thumbnail);
+  $link.append($thumbnail); //$links[i].appendChild(thumbnail)
+
+
+  console.log($thumbnail);
 };
