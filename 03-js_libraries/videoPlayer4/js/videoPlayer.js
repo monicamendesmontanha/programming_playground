@@ -34,3 +34,6 @@ for (let i = 0; i < $links.length; i++) {
   const $link = $( $links[i] ); // Turn the vanilla DOM node back into a jQuery object
   thumbnailify( $link );
 }
+
+$('h2').funText(500, 'reverseCandy');
+$('a').funText(100, 'reverseCandy');
