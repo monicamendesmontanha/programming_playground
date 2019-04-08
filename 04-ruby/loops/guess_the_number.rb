@@ -9,23 +9,24 @@
 # Let the user choose the maximum value (so they can play a long game with a random value between 0 and 10000, for example).
 # Give feedback to the user: "Wrong, guess higher!" or "Wrong, guess lower!"
 
-number = (rand() * 1000).to_i
-p number
+SECRET_NUMBER = Random.rand 0...100.to_i
+p "SECRET_NUMBER:  #{SECRET_NUMBER}"
+p "-------------------"
 
 "Guess the number: "
 guess = 0
 
-until guess == number do
+until guess == SECRET_NUMBER do
 
   print "Guess the number: "
   guess = gets.to_i
 
-  if guess < number
+  if guess < SECRET_NUMBER
     p "Wrong, guess higher!"
-  elsif guess > number
+  elsif guess > SECRET_NUMBER
     p "Wrong, guess lower!"
   else
-    p "yeah! The correct number is #{number}!"
+    p ">>>>> yeah! The correct number is #{guess}!"
   end
 
 end
