@@ -9,7 +9,10 @@
 # Let the user choose the maximum value (so they can play a long game with a random value between 0 and 10000, for example).
 # Give feedback to the user: "Wrong, guess higher!" or "Wrong, guess lower!"
 
-SECRET_NUMBER = Random.rand 0...100.to_i
+print "What is the maximum possible value you'd like to guess: "
+MAX_VALUE = gets.to_i
+
+SECRET_NUMBER = Random.rand 0...MAX_VALUE.to_i
 p "SECRET_NUMBER:  #{SECRET_NUMBER}"
 p "-------------------"
 
