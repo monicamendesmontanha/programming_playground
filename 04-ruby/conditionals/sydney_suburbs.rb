@@ -6,7 +6,6 @@ print "What's surbub do you live in: "
 residence = gets.chomp.capitalize
 
 # case statement
-# JS switch() Crockford switch
 case residence
 when 'Glebe'
   p "Beautiful forehore walk"
@@ -17,15 +16,3 @@ when "Fairlight"
 else
   p "I'm sure that's a lovely place"
 end
-
-
-# if statement
-# if residence == "Glebe"
-#   p "Beautiful forehore walk"
-# elsif residence == "Five Dock"
-#   p "Cool gangland shooting"
-# elsif residence == "Fairlight"
-#   p "What a fancy name"
-# else
-#   p "I'm sure that's a lovely place"
-# end
