@@ -5,8 +5,7 @@ def hello(name="World", adjetive="Cruel") # Variadic
 end
 
 def add(a,b)
-  result = a + b
-  return  # Implicit return: Ruby returns the value of the last line of code. 
+  a + b # Implicit return: Ruby returns the value of the last line of code.
 end
 
 puts "The result is #{ add 5, 7 }"
