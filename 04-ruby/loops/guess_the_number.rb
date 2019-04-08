@@ -21,7 +21,7 @@ guess = 0
 
 until guess == SECRET_NUMBER do
 
-  print "Guess the number: "
+  print "Guess the number between 0 and #{MAX_VALUE}: "
   guess = gets.to_i
 
   if guess < SECRET_NUMBER
