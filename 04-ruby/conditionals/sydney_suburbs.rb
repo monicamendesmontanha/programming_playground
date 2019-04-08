@@ -5,14 +5,14 @@
 print "What's surbub do you live in: "
 residence = gets.chomp.capitalize
 
-# case statement
-case residence
+# case statement is kind of a case expression
+p case residence
 when 'Glebe'
-  p "Beautiful forehore walk"
+  "Beautiful forehore walk"
 when "Five Dock"
-  p "Cool gangland shooting"
+  "Cool gangland shooting"
 when "Fairlight"
-  p "What a fancy name"
+  "What a fancy name"
 else
-  p "I'm sure that's a lovely place"
+  "I'm sure that's a lovely place"
 end
