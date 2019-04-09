@@ -35,4 +35,7 @@ days_of_the_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sat
 # puts days_of_the_week
 
 #solution version 2 (Remove Sunday from the last postion and move it to the first position.)
-p days_of_the_week.unshift days_of_the_week.pop
+# p days_of_the_week.unshift days_of_the_week.pop
+
+#solution version 3 (Remove Sunday from the last postion and move it to the first position.)
+p days_of_the_week.rotate! -1
