@@ -51,3 +51,16 @@ c.inject do |running_total, n|
 end
 
 # a.inject &:* #shortcut
+
+#------------------------------------------
+
+d = Array.new(10) { rand(1..20) }
+p "array random = #{d}"
+
+#using sample
+p "sample = #{d.sample}"
+p "3 samples = #{d.sample 3}"
+
+#using shuffle
+p "take the first = #{d.shuffle.first}"
+p "take any 3 = #{d.shuffle.take 3}"
