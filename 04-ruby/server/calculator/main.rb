@@ -8,7 +8,10 @@ get '/' do
   erb :home
 end
 
-
 get '/faq' do
   erb :faq
+end
+
+get '/result' do
+ "#{ params[:x].to_f + params[:y].to_f }"
 end
