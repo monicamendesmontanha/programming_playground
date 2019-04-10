@@ -11,6 +11,8 @@
 
 
 require 'sinatra'
+require 'sinatra/reloader' #restart the server
+require 'pry' # This is bad idea in general
 
 get '/hello' do
   "Hello world from Sinatra!"
@@ -22,4 +24,17 @@ end
 
 get '/uptime' do
   "The server uptime is: #{ `uptime` }"
+end
+
+
+# params is how to get the information from the web.
+# params[:name]
+# Sinatra uses Indifferent Hash Acess
+# Dynamic URL
+get '/fanclub/:name' do
+  "#{params[:name].capitalize} is a proud member of the XXX fanclub."
+end
+
+get '/fanclub/:first/:last' do
+  "#{params[:first].capitalize} #{params[:last].capitalize} is a proud member of the XXX fanclub."
 end
