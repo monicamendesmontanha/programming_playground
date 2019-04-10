@@ -5,7 +5,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* background-image: url: "..public/img/money.gif" */
+  /* if I want add the image to background-image, better way is download the image for the folder  */
+  /* https://media.giphy.com/media/3o8dFzIXb0qaE3pYWs/giphy.gif */
 }
 
 nav {
