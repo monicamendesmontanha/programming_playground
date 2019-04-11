@@ -1,0 +1,80 @@
+INFO ABOUT DATABASE
+
+$ sqlite3 database.sqlite3 < people.sql
+$ ls -l
+=> total 24
+=> -rw-r--r--  1 monicamendes  staff  8192 11 Apr 10:39 database.sqlite3
+=> -rw-r--r--  1 monicamendes  staff   102 11 Apr 10:37 people.sql
+
+$ sqlite3 database.sqlite3
+=> sqlite> .schema
+=> show what you wrote on file.sql, example:
+
+file: people.sql
+CREATE TABLE people(
+  id INTEGER PRIMARY KEY,
+  first_name TEXT,
+  last_name TEXT,
+  age INTEGER
+);
+
+
+  CRUD            SQL
+create ----->   INSERT  ----->   ex: INSERT INTO people (id, first_name, last_name, age) VALUES (1, "John", "Smith", 64);
+read   ----->   SELECT  ----->   ex: SELECT first_name FROM people;   // get me everything: SELECT * FROM people; // serach for specific thing: SELECT * FROM people WHERE id=2
+update ----->   UPDATE  ----->   ex: UPDATE people SET age=65 WHERE id="2";  [!DANGER if just write:UPDATE people SET age=65 will change all the ages]
+delete ----->   DELETE  ----->   ex: DELETE FROM people WHERE id="4";
+
+===== INSERT
+
+Add a file seeds.sql and typing this there:
+INSERT INTO people (id, first_name, last_name, age) VALUES (1, "John", "Smith", 64);
+INSERT INTO people (id, first_name, last_name, age) VALUES (2, "Jane", "Smith", 68);
+INSERT INTO people VALUES (3, "Bob", "Jones", 11);
+
+$ sqlite3 database.sqlite3 < seeds.sql
+=> Error: near line 1: UNIQUE constraint failed: people.id
+=> Error: near line 2: UNIQUE constraint failed: people.id
+$ rm database.sqlite3
+$ sqlite3 database.sqlite3 < people.sql
+$ sqlite3 database.sqlite3 < seeds.sql
+$ sqlite3 database.sqlite3
+sqlite> SELECT * FROM people;
+1|John|Smith|64
+2|Jane|Smith|68
+3|Bob|Jones|11
+
+===== SELECT
+
+* search for a specific thing:
+sqlite> SELECT * FROM people WHERE id=2;
+2|Jane|Smith|68
+
+sqlite> SELECT age FROM people;
+64
+68
+11
+
+sqlite> SELECT MAX(age) FROM people;
+68
+
+sqlite> SELECT MIN(age) FROM people;
+11
+
+sqlite> SELECT AVG(age) FROM people;
+47.6666666666667
+
+
+===== UPDATE
+sqlite> UPDATE people SET age=65 WHERE id="2";
+sqlite> SELECT * FROM people;
+1|John|Smith|64
+2|Jane|Smith|65
+3|Bob|Jones|11
+
+===== DELETE
+sqlite> INSERT INTO people VALUES (4, "Boris", "Joews", 89);
+sqlite> SELECT * FROM people;
+...
+4|Boris|Joews|89
+sqlite> DELETE FROM people WHERE id="4";
