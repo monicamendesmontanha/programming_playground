@@ -7,3 +7,8 @@ This is a project for playing and learning through some exercises.
 - [x] CSS
 - [x] DOM
 - [x] jQuery
+- [x] Ruby
+- [x] Server
+- [x] Databases
+- [x] SQL 
+
