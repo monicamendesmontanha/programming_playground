@@ -12,6 +12,11 @@ get '/butterflies' do
   erb :butterflies_index
 end
 
+# NEW - Form for adding a new butterfly
+get '/butterflies/new' do
+  erb :butterflies_new
+end
+
 # SHOW = Shows a single butterfly in more detail
 get '/butterflies/:id' do
   butterflies = query_db "SELECT * FROM butterflies WHERE id=#{ params[:id] }"
