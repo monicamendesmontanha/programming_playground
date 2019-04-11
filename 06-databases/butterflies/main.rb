@@ -20,6 +20,7 @@ get '/butterflies/:id' do
 end
 
 def query_db(sql_statement)
+  puts sql_statement #Option feature which is nice for debugging
   db = SQLite3::Database.new 'database.sqlite3'
   db.results_as_hash = true
   result = db.execute sql_statement
