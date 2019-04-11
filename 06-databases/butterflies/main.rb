@@ -17,6 +17,15 @@ get '/butterflies/new' do
   erb :butterflies_new
 end
 
+#CREATE - Add a new butterfly to the database
+post '/butterflies' do
+  query = "INSERT INTO butterflies (name, family, image) VALUES ('#{params[:name]}','#{params[:family]}','#{params[:image]}')"
+  query_db query
+  redirect to('/butterflies') #GET request
+  # erb :butterflies_new
+  # params.to_s
+end
+
 # SHOW = Shows a single butterfly in more detail
 get '/butterflies/:id' do
   butterflies = query_db "SELECT * FROM butterflies WHERE id=#{ params[:id] }"
