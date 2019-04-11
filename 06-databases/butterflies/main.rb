@@ -26,9 +26,16 @@ post '/butterflies' do
   # params.to_s
 end
 
+# EDIT - Shows a form to edit a single butterfly
+get '/butterflies/:id/edit' do
+  butterflies = query_db "SELECT * FROM butterflies WHERE id=#{params[:id]}"
+  @butterflies = butterflies.first
+  erb :butterflies_edit
+end
+
 # SHOW = Shows a single butterfly in more detail
 get '/butterflies/:id' do
-  butterflies = query_db "SELECT * FROM butterflies WHERE id=#{ params[:id] }"
+  butterflies = query_db "SELECT * FROM butterflies WHERE id=#{params[:id]}"
   @butterfly = butterflies.first
   erb :butterflies_show
 end
