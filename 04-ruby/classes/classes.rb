@@ -1,11 +1,26 @@
 require 'pry'
 
-class MarxBrother
+# Superclass
+class Actor
+  def award_speech
+    "I would like to thank mt parents and my agent. We did it baby."
+  end
 
-  # macro to write getters an setters for me
+  def deny_allegations
+    "I deny that and I was drunk and I don't remember and he's not that attractive"
+  end
+end
+
+class Stooge < Actor
+  def terrible?
+    true
+  end
+end
+
+class MarxBrother < Actor
   attr_accessor :name, :instrument, :vice
 
-  def initialize(n='', i='', v='')
+  def initialize(n='', i='', v='hating fascism')
     @name = n
     @instrument = i
     @vice = v
