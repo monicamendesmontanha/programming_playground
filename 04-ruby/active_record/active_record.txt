@@ -1,0 +1,46 @@
+[1] pry(main)> require 'active_record'
+=> true
+[2] pry(main)> class Butterfly < ActiveRecord::Base
+[2] pry(main)* end
+=> nil
+...
+
+Butterfly.first
+Butterfly.last
+
+======= create:
+ b = Butterfly.new
+ b.name = 'George'
+ b.family = 'very nice'
+ b.save
+
+ Butterfly.last
+
+======= update:
+a = Butterfly.first
+a.name = 'Regal Monarch'
+a.save
+
+Butterfly.first
+
+======== destroy
+shame = Butterfly.last
+shame.destroy
+shame
+
+Butterfly.all
+
+======== select/find by id
+butterfly = Butterfly.find 2
+
+======== select/find by name
+Butterfly.find_by :name => 'Regal Monarch'
+
+======== select/find by a specific tipes
+Butterfly.pluck :name
+Butterfly.pluck :name, :image
+
+======== number of methods
+a.methods.count
+
+
