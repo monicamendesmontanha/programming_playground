@@ -5,7 +5,7 @@ class MarxBrother
   # macro to write getters an setters for me
   attr_accessor :name, :instrument, :vice
 
-  def initialize(n, i, v)
+  def initialize(n='', i='', v='')
     @name = n
     @instrument = i
     @vice = v
