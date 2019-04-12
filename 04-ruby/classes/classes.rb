@@ -2,16 +2,8 @@ require 'pry'
 
 class MarxBrother
 
-  # macro
-   # getter
-  attr_reader :name :instrument
-  attr_writer :name :instrument
-
-  attr_reader :instrument
-  attr_writer :instrument
-
-  attr_reader :vice
-  attr_writer :vice
+  # macro to write getters an setters for me
+  attr_accessor :name :instrument :vice
 end
 
 groucho = MarxBrother.new
