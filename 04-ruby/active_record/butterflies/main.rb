@@ -49,13 +49,6 @@ get '/butterflies/:id/edit' do
   erb :butterflies_edit
 end
 
-# DESTROY - Delets a given a butterfly from the database
-get '/butterflies/:id/delete' do
-  butterfly = Butterfly.find params[:id]
-  butterfly.destroy
-  redirect to("/butterflies")
-end
-
 # SHOW = Shows a single butterfly in more detail
 get '/butterflies/:id' do
   @butterfly = Butterfly.find params[:id]
@@ -74,12 +67,9 @@ post '/butterflies/:id' do
 end
 
 
-
-def query_db(sql_statement)
-  puts sql_statement #Option feature which is nice for debugging
-  db = SQLite3::Database.new 'database.sqlite3'
-  db.results_as_hash = true
-  result = db.execute sql_statement
-  db.close  #close the conection
-  result # Implicity returned
+# DESTROY - Delets a given a butterfly from the database
+get '/butterflies/:id/delete' do
+  butterfly = Butterfly.find params[:id]
+  butterfly.destroy
+  redirect to("/butterflies")
 end
