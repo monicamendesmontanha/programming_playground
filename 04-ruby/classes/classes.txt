@@ -1,0 +1,17 @@
+1)problem:
+methods and datas: possibly will have many conflicts
+[1] pry(main)> groucho = {
+[1] pry(main)*   :name => "groucho",
+[1] pry(main)* }
+=> {:name=>"groucho"}
+[2] pry(main)> def plays(brother)
+[2] pry(main)*   "my name is #{brother[:name]}"
+[2] pry(main)* end
+=> :plays
+[3] pry(main)> plays(groucho)
+=> "my name is groucho"
+
+
+1)solution:
+object and classes which you have just one method and one data.
+
