@@ -22,9 +22,9 @@ groucho = MarxBrother.new 'Groucho Marx', 'guitar', 'cigars'
 # groucho.instrument = 'guitar'
 # groucho.vice = 'cigars'
 
-# harpo = MarxBrother.new
-# harpo.name = 'Harpo Marx'
-# harpo.instrument = 'harp'
+harpo = MarxBrother.new
+harpo.name = 'Harpo Marx'
+harpo.instrument = 'harp'
 
 
 binding.pry
