@@ -58,8 +58,7 @@ end
 
 # SHOW = Shows a single butterfly in more detail
 get '/butterflies/:id' do
-  butterflies = query_db "SELECT * FROM butterflies WHERE id=#{params[:id]}"
-  @butterfly = butterflies.first
+  @butterfly = Butterfly.find params[:id]
   erb :butterflies_show
 end
 
