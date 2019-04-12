@@ -64,8 +64,11 @@ end
 
 # UPDATE - Modify the database with new information for a particular butterfly
 post '/butterflies/:id' do
-  query = "UPDATE butterflies SET name='#{params[:name]}', family='#{params[:family]}', image='#{params[:image]}' WHERE id=#{params[:id]}"
-  query_db query
+  butterfly = Butterfly.find params[:id]
+  butterfly.name = params[:name]
+  butterfly.family = params[:family]
+  butterfly.image = params[:image]
+  butterfly.save
   redirect to("/butterflies/#{params[:id]}")
 end
 
