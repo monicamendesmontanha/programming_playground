@@ -51,7 +51,8 @@ end
 
 # DESTROY - Delets a given a butterfly from the database
 get '/butterflies/:id/delete' do
-  query_db "DELETE FROM butterflies WHERE id=#{ params[:id] }"
+  butterfly = Butterfly.find params[:id]
+  butterfly.destroy
   redirect to("/butterflies")
 end
 
