@@ -1,0 +1,26 @@
+obs:  id INTEGER PRIMARY KEY AUTOINCREMENT, -- AUTOINCREMENT don't need insert the id more!
+
+install the gem sqlite3
+$ gem install sqlite3
+
+1)
+pry
+pry(main)> require 'sqlite3'
+pry(main)> SQLite3
+pry(main)> db = SQLite3::Database.new 'database.sqlite3'
+
+2)
+* option to show as an array (DO THE SECOND OPTION WITH HASH)
+pry(main)> butterfly = db.execute 'SELECT * FROM butterflies'
+=> [[1, "Monarch", "Nymphalidae", nil]]
+pry(main)> butterfly.first[1]
+
+* option better to show as a hash
+pry(main)> db.results_as_hash = true
+=> true
+pry(main)> butterfly = db.execute 'SELECT * FROM butterflies'
+=> [{"id"=>1, "name"=>"Monarch", "family"=>"Nymphalidae", "image"=>nil}]
+pry(main)> butterfly.first[1]
+=> "Monarch"
+
+3)
