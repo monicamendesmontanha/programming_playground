@@ -45,8 +45,7 @@ end
 
 # EDIT - Shows a form to edit a single butterfly
 get '/butterflies/:id/edit' do
-  butterflies = query_db "SELECT * FROM butterflies WHERE id=#{params[:id]}"
-  @butterflies = butterflies.first
+  @butterfly = Butterfly.find params[:id]
   erb :butterflies_edit
 end
 
