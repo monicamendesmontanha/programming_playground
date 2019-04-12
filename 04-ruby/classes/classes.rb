@@ -3,7 +3,11 @@ require 'pry'
 class MarxBrother
 
   # macro to write getters an setters for me
-  attr_accessor :name :instrument :vice
+  attr_accessor :name, :instrument, :vice
+
+  def play
+    "My name is #{ @name } and I play the #{ @ instrument }"
+  end
 end
 
 groucho = MarxBrother.new
