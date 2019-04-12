@@ -15,3 +15,21 @@ methods and datas: possibly will have many conflicts
 1)solution:
 object and classes which you have just one method and one data.
 
+
+2) superclass (heritance)
+harpo.class.ancestors
+
+# open classes
+
+"some string".hotdogs
+=> undefined
+
+--- Create a class:
+class BasicObject
+  def hotdogs
+    "hotdogs" * 40
+  end
+end
+
+:hotdogs
+=> "some string"
