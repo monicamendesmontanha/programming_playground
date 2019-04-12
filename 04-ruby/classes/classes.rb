@@ -2,34 +2,16 @@ require 'pry'
 
 class MarxBrother
 
-  # getter
-  def name()
-    # return the name
-    @name # Instance variable
-  end
+  # macro
+   # getter
+  attr_reader :name :instrument
+  attr_writer :name :instrument
 
-  # setter
-  def name=(n)
-    # remember the name provided in n
-    @name = n
-  end
+  attr_reader :instrument
+  attr_writer :instrument
 
-  def instrument()
-    @instrument
-  end
-
-  def instrument=(i)
-    @instrument = i
-  end
-
-  def vice()
-    @vice
-  end
-
-  def vice=(v)
-    @vice = v
-  end
-
+  attr_reader :vice
+  attr_writer :vice
 end
 
 groucho = MarxBrother.new
