@@ -73,3 +73,7 @@ get '/butterflies/:id/delete' do
   butterfly.destroy
   redirect to("/butterflies")
 end
+
+after do
+  ActiveRecord::Base.connection.close
+end
