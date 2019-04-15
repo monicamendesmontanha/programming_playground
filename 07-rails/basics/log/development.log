@@ -911,3 +911,24 @@ Processing by AutoController#color as HTML
 Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello" for ::1 at 2019-04-15 12:16:12 +1000
+Processing by PagesController#hello as HTML
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for ::1 at 2019-04-15 12:16:13 +1000
+Processing by PagesController#faq as HTML
+  Rendering pages/faq.html.erb within layouts/application
+  Rendered pages/faq.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2019-04-15 12:16:13 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
