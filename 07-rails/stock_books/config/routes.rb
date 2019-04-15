@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
-get '/home' => 'pages#home'
-get '/faq' => 'pages#faq'
-get '/about' => 'pages#about'
+  root :to => 'pages#home'
+
+  get '/stocks' => 'stocks#form'
+  get '/stocks/info' => 'stocks#info'
+
+  get '/books' => 'books#form'
+  get '/books/info' => 'books#info'
 end

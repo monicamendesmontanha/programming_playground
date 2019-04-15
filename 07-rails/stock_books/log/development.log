@@ -352,3 +352,313 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/home" for ::1 at 2019-04-15 14:03:32 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2019-04-15 14:09:33 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2019-04-15 14:13:25 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stocks" for ::1 at 2019-04-15 14:13:28 +1000
+  
+ActionController::RoutingError (uninitialized constant StocksController):
+  
+bootsnap (1.4.3) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.3) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.3) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.3) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stocks" for ::1 at 2019-04-15 14:14:55 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-15 14:15:02 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:15:05 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:17:41 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started POST "/__web_console/repl_sessions/2a68fd238bb4cf2d1e122af001e2333f/trace" for ::1 at 2019-04-15 14:17:48 +1000
+Started GET "/stocks" for ::1 at 2019-04-15 14:18:14 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:19:21 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:20:06 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:20:15 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:20:16 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:20:16 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-15 14:20:18 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:20:19 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:20:46 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:21:16 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-15 14:21:20 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:21:23 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:24:25 +1000
+  
+ActionController::RoutingError (uninitialized constant ApplicationControler):
+  
+app/controllers/stocks_controller.rb:1:in `<main>'
+Started GET "/stocks" for ::1 at 2019-04-15 14:24:48 +1000
+Processing by StocksController#form as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template stocks/form, application/form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/monicamendes/Documents/myGA/programming_playground/07-rails/stock_books/app/views"
+):
+  
+app/controllers/stocks_controller.rb:3:in `form'
+Started GET "/stocks" for ::1 at 2019-04-15 14:25:33 +1000
+Processing by StocksController#form as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template stocks/form, application/form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/monicamendes/Documents/myGA/programming_playground/07-rails/stock_books/app/views"
+):
+  
+app/controllers/stocks_controller.rb:3:in `form'
+Started GET "/stocks" for ::1 at 2019-04-15 14:25:57 +1000
+Processing by StocksController#form as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template stocks/form, application/form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/monicamendes/Documents/myGA/programming_playground/07-rails/stock_books/app/views"
+):
+  
+app/controllers/stocks_controller.rb:3:in `form'
+Started GET "/stocks" for ::1 at 2019-04-15 14:33:05 +1000
+Processing by StocksController#form as HTML
+  Rendering stocks/form.html.erb within layouts/application
+  Rendered stocks/form.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/info?stock_symbol=AAPl" for ::1 at 2019-04-15 14:33:10 +1000
+Processing by StocksController#info as HTML
+  Parameters: {"stock_symbol"=>"AAPl"}
+  Rendering stocks/info.html.erb within layouts/application
+  Rendered stocks/info.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 990ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/monicamendes/Documents/myGA/programming_playground/07-rails/stock_books/app/views/stocks/info.html.erb:5: syntax error, unexpected tIVAR, expecting do or '{' or '('
+...end=( number-to_currency @price);@output_buffer.safe_append=...
+...                         ^~~~~~):
+  
+app/views/stocks/info.html.erb:5: syntax error, unexpected tIVAR, expecting do or '{' or '('
+app/controllers/stocks_controller.rb:11:in `info'
+Started GET "/stocks/info?stock_symbol=AAPL" for ::1 at 2019-04-15 14:33:32 +1000
+Processing by StocksController#info as HTML
+  Parameters: {"stock_symbol"=>"AAPL"}
+  Rendering stocks/info.html.erb within layouts/application
+  Rendered stocks/info.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 869ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 14:33:42 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:33:43 +1000
+Processing by BooksController#form as HTML
+  Rendering books/form.html.erb within layouts/application
+  Rendered books/form.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/info?title=Jaws" for ::1 at 2019-04-15 14:33:46 +1000
+Processing by BooksController#info as HTML
+  Parameters: {"title"=>"Jaws"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template books/info, application/info with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/monicamendes/Documents/myGA/programming_playground/07-rails/stock_books/app/views"
+):
+  
+app/controllers/books_controller.rb:9:in `info'
+Started GET "/books/info?title=Jaws" for ::1 at 2019-04-15 14:36:33 +1000
+Processing by BooksController#info as HTML
+  Parameters: {"title"=>"Jaws"}
+  Rendering books/info.html.erb within layouts/application
+  Rendered books/info.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 652ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/info?title=Jaws" for ::1 at 2019-04-15 14:37:16 +1000
+Processing by BooksController#info as HTML
+  Parameters: {"title"=>"Jaws"}
+  Rendering books/info.html.erb within layouts/application
+  Rendered books/info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 654ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 14:41:14 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
