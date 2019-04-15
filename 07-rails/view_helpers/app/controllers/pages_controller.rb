@@ -17,4 +17,13 @@ class PagesController < ApplicationController
     @story = "A very very very very very very very long time ago"
     render :text
   end
+
+  def assets
+    render :assets
+  end
+
+  def url
+    render :url
+  end
+
 end
