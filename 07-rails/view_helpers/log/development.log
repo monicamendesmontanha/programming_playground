@@ -372,3 +372,10 @@ Processing by PagesController#numbers as HTML
 Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/numbers" for ::1 at 2019-04-15 14:53:53 +1000
+Processing by PagesController#numbers as HTML
+  Rendering pages/numbers.html.erb within layouts/application
+  Rendered pages/numbers.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
