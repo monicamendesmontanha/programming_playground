@@ -379,3 +379,116 @@ Processing by PagesController#numbers as HTML
 Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/numbers" for ::1 at 2019-04-15 14:55:15 +1000
+Processing by PagesController#numbers as HTML
+  Rendering pages/numbers.html.erb within layouts/application
+  Rendered pages/numbers.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/numbers" for ::1 at 2019-04-15 14:55:19 +1000
+Processing by PagesController#numbers as HTML
+  Rendering pages/numbers.html.erb within layouts/application
+  Rendered pages/numbers.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/numbers" for ::1 at 2019-04-15 14:55:45 +1000
+Processing by PagesController#numbers as HTML
+  Rendering pages/numbers.html.erb within layouts/application
+  Rendered pages/numbers.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/numbers" for ::1 at 2019-04-15 14:56:25 +1000
+Processing by PagesController#numbers as HTML
+  Rendering pages/numbers.html.erb within layouts/application
+  Rendered pages/numbers.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/numbers" for ::1 at 2019-04-15 15:00:39 +1000
+Processing by PagesController#numbers as HTML
+  Rendering pages/numbers.html.erb within layouts/application
+  Rendered pages/numbers.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text" for ::1 at 2019-04-15 15:00:43 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text" for ::1 at 2019-04-15 15:02:04 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text" for ::1 at 2019-04-15 15:03:22 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (103.2ms)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `cicle' for #<#<Class:0x00007f829582a928>:0x00007f8291c5f920>
+Did you mean?  cycle):
+    1: <h1>Texts Helpers</h1>
+    2: <ul>
+    3:   <% @numbers.each do |n| %>
+    4:     <li style="background:<%= cicle('red', 'blue') %>"><%= n %></li>
+    5:   <% end %>
+    6: </ul>
+    7: <p><%= @story %></p>
+  
+app/views/pages/text.html.erb:4:in `block in _app_views_pages_text_html_erb___2772358863364241017_70099384069780'
+app/views/pages/text.html.erb:3:in `each'
+app/views/pages/text.html.erb:3:in `_app_views_pages_text_html_erb___2772358863364241017_70099384069780'
+app/controllers/pages_controller.rb:18:in `text'
+Started GET "/text" for ::1 at 2019-04-15 15:03:30 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text" for ::1 at 2019-04-15 15:04:21 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text" for ::1 at 2019-04-15 15:05:51 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/monicamendes/Documents/myGA/programming_playground/07-rails/view_helpers/app/views/pages/text.html.erb:10: syntax error, unexpected tSTRING_BEG, expecting ')'
+...pend=( pluralize @enemy_count 'enemy' );@output_buffer.safe_...
+...                              ^):
+  
+app/views/pages/text.html.erb:10: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/controllers/pages_controller.rb:18:in `text'
+Started GET "/text" for ::1 at 2019-04-15 15:06:03 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text" for ::1 at 2019-04-15 15:06:12 +1000
+Processing by PagesController#text as HTML
+  Rendering pages/text.html.erb within layouts/application
+  Rendered pages/text.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
