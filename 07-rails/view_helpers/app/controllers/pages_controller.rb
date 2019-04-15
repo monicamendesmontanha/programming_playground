@@ -9,4 +9,12 @@ class PagesController < ApplicationController
     @phone = 2125551212
     render :numbers
   end
+
+  def text
+    @numbers = (1..20).to_a
+    @friend_count = 1
+    @enemy_count = 2
+    @story = "A very very very very very very very long time ago"
+    render :text
+  end
 end
