@@ -5,11 +5,15 @@ class PagesController < ApplicationController
   end
 
   def faq
-    render :plain
+    render :faq
   end
 
   def about
     render :about
+  end
+
+  def funny
+    render :funny
   end
 
 end
