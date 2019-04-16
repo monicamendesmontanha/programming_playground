@@ -25,3 +25,1059 @@ Migrating to CreateArtists (20190416041541)
   ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/bin/annotate:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/bin/annotate:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mArtists Load (0.4ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" ORDER BY "artists"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2019-04-16 14:39:55 +1000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 18ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:39:59 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  Rendered artists/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 299ms (Views: 297.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:42:31 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:2
+  Rendered artists/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:42:34 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:2
+  Rendered artists/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:44:01 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:2
+  Rendered artists/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:45:55 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:46:46 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:49:47 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:50:02 +1000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 218ms (Views: 211.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-04-16 14:50:06 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:50:10 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 14:51:56 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 14:53:22 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 14:53:52 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 14:55:11 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 14:58:17 +1000
+  
+ArgumentError ('/artists' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/artists" for ::1 at 2019-04-16 15:01:22 +1000
+  
+ArgumentError ('/artists' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:01:41 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/artists/new"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/artists" for ::1 at 2019-04-16 15:01:59 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/artists"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/artists" for ::1 at 2019-04-16 15:02:04 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/artists"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/artists" for ::1 at 2019-04-16 15:05:58 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/artists"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/artists" for ::1 at 2019-04-16 15:06:05 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 15:08:23 +1000
+  
+ArgumentError ('/artists' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/artists" for ::1 at 2019-04-16 15:08:59 +1000
+  
+SyntaxError (/Users/monicamendes/Documents/myGA/programming_playground/07-rails/moma/config/routes.rb:2: syntax error, unexpected =>
+  root to: => '/artists#index'
+           ^~):
+  
+config/routes.rb:2: syntax error, unexpected =>
+Started GET "/artists" for ::1 at 2019-04-16 15:09:08 +1000
+  
+ArgumentError ('/artists' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/artists" for ::1 at 2019-04-16 15:09:30 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 15:15:27 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/artists" for ::1 at 2019-04-16 15:16:43 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2019-04-16 15:17:17 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2019-04-16 15:18:41 +1000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started PUT "/__web_console/repl_sessions/f761504ba2f2152af015ee815e7308a9" for ::1 at 2019-04-16 15:18:49 +1000
+Started PUT "/__web_console/repl_sessions/f761504ba2f2152af015ee815e7308a9" for ::1 at 2019-04-16 15:18:52 +1000
+Started PUT "/__web_console/repl_sessions/f761504ba2f2152af015ee815e7308a9" for ::1 at 2019-04-16 15:18:52 +1000
+Started GET "/" for ::1 at 2019-04-16 15:19:21 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  Rendered artists/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>All artists</h1>
+    2: 
+    3: <% @artists.each do |artist| %>
+    4:   <%= image_tag artist.image, :class => 'thumb' %>
+    5: 
+    6:   <ul>
+  
+app/views/artists/index.html.erb:3:in `_app_views_artists_index_html_erb__133732510193357889_70207179961980'
+Started PUT "/__web_console/repl_sessions/b8f31b8fb45b5ac30b57e53a7d2a2827" for ::1 at 2019-04-16 15:19:25 +1000
+Started PUT "/__web_console/repl_sessions/b8f31b8fb45b5ac30b57e53a7d2a2827" for ::1 at 2019-04-16 15:19:27 +1000
+Started PUT "/__web_console/repl_sessions/b8f31b8fb45b5ac30b57e53a7d2a2827" for ::1 at 2019-04-16 15:19:32 +1000
+Started GET "/" for ::1 at 2019-04-16 15:19:39 +1000
+Processing by ArtistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:4:in `index'
+Started PUT "/__web_console/repl_sessions/3b93f0f4a729de1a5cb1c40cf3fd0b59" for ::1 at 2019-04-16 15:19:45 +1000
+Started PUT "/__web_console/repl_sessions/3b93f0f4a729de1a5cb1c40cf3fd0b59" for ::1 at 2019-04-16 15:19:46 +1000
+Started PUT "/__web_console/repl_sessions/3b93f0f4a729de1a5cb1c40cf3fd0b59" for ::1 at 2019-04-16 15:19:51 +1000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mArtists Load (1.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+Started GET "/" for ::1 at 2019-04-16 15:21:44 +1000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `to' for #<#<Class:0x00007fd0879cc818>:0x00007fd0879d40b8>
+Did you mean?  t):
+    10:   <body>
+    11:     <div class="container">
+    12:       <nav>
+    13:         <%= link to 'Home', root_path %>
+    14:         <%= link to 'All artists', artists_path %>
+    15:         <%= link to 'new artist', new_artist_path %>
+    16:       </nav>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2603244496639290027_70266802629620'
+Started GET "/" for ::1 at 2019-04-16 15:22:31 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2019-04-16 15:22:33 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (2.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 33ms (Views: 27.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 15:22:34 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists/new" for ::1 at 2019-04-16 15:22:35 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (97.6ms)
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fd08bbb26b0>:0x00007fd08d0dce50>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__1698046832695969644_70266848209740'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:27:02 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (100.3ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fd08bbb26b0>:0x00007fd08bdfdd98>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__1698046832695969644_70266838318340'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:28:12 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (118.5ms)
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fd08bbb26b0>:0x00007fd08be8d510>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__1698046832695969644_70266838609580'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:28:55 +1000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (154.7ms)
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fbaa78bac40>:0x00007fbaa78c36b0>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__255909628964416208_70219825774740'
+Started GET "/rails/info/routes" for ::1 at 2019-04-16 15:29:31 +1000
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/actionpack-5.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (6.3ms)
+  Rendered /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/actionpack-5.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/new" for ::1 at 2019-04-16 15:30:03 +1000
+Processing by ArtistsController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:12:in `new'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:30:08 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (102.6ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fbaaa3829a0>:0x00007fbaaa381050>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__255909628964416208_70219848226940'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:30:23 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__255909628964416208_70219847187800'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:30:29 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (99.8ms)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fbaaa26aa18>:0x00007fbaaa27a8f0>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb__255909628964416208_70219847655060'
+Started GET "/artists" for ::1 at 2019-04-16 15:33:46 +1000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 151ms (Views: 145.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/artists/new" for ::1 at 2019-04-16 15:33:49 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (107.0ms)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fcba25f5328>:0x00007fcba69530c0>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256324920000'
+Started GET "/artists" for ::1 at 2019-04-16 15:33:55 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 15:34:12 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/artists/new" for ::1 at 2019-04-16 15:34:13 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @artists do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256317714320'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:34:19 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (100.1ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fcba25f5328>:0x00007fcba09a4bd8>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256274778660'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:34:30 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (107.3ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fcba25f5328>:0x00007fcba5c1a070>
+Did you mean?  artists_path):
+    1: <% form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256318010460'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:34:38 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (123.0ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fcba25f5328>:0x00007fcba6ab17a0>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256325660680'
+Started PUT "/__web_console/repl_sessions/120df2550e83d4bf3b02418615263f00" for ::1 at 2019-04-16 15:34:48 +1000
+Started PUT "/__web_console/repl_sessions/120df2550e83d4bf3b02418615263f00" for ::1 at 2019-04-16 15:34:49 +1000
+Started GET "/artists/new" for ::1 at 2019-04-16 15:37:06 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (105.6ms)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fcba1c1b0c8>:0x00007fcba1c197f0>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256284458000'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:37:12 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @artists do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/new.html.erb:1:in `_app_views_artists_new_html_erb___2971862914665876424_70256283064240'
+Started GET "/" for ::1 at 2019-04-16 15:45:22 +1000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtists Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 234ms (Views: 227.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/artists/new" for ::1 at 2019-04-16 15:45:25 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (108.9ms)
+  Rendered artists/new.html.erb within layouts/application (111.2ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007f870ca0d648>:0x00007f870cfdf418>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/_form.html.erb:1:in `_app_views_artists__form_html_erb__1727481192166498805_70109007653200'
+app/views/artists/new.html.erb:3:in `_app_views_artists_new_html_erb___2278784239968405870_70109007642160'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:46:47 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (146.2ms)
+  Rendered artists/new.html.erb within layouts/application (148.0ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007f870ca0d648>:0x00007f870aab5980>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/_form.html.erb:1:in `_app_views_artists__form_html_erb__1727481192166498805_70108988291240'
+app/views/artists/new.html.erb:3:in `_app_views_artists_new_html_erb___2278784239968405870_70109005734220'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:48:20 +1000
+Processing by ArtistsController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ArtistsController::Artist):
+  
+app/controllers/artists_controller.rb:11:in `new'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:48:42 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (119.3ms)
+  Rendered artists/new.html.erb within layouts/application (121.0ms)
+Completed 500 Internal Server Error in 132ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007f8709f6a030>:0x00007f8709f68758>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationality %>
+  
+app/views/artists/_form.html.erb:1:in `_app_views_artists__form_html_erb__1727481192166498805_70108982457880'
+app/views/artists/new.html.erb:3:in `_app_views_artists_new_html_erb___2278784239968405870_70108982236100'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mArtists Load (0.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+Started GET "/artists/new" for ::1 at 2019-04-16 15:53:18 +1000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (139.3ms)
+  Rendered artists/new.html.erb within layouts/application (141.1ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fc932502640>:0x00007fc93250b948>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationatily %>
+  
+app/views/artists/_form.html.erb:1:in `_app_views_artists__form_html_erb__1423068882793963396_70251054699200'
+app/views/artists/new.html.erb:3:in `_app_views_artists_new_html_erb__2798813846124929458_70251054636440'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:53:27 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (107.8ms)
+  Rendered artists/new.html.erb within layouts/application (108.8ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `artists_index_path' for #<#<Class:0x00007fc932502640>:0x00007fc932731d58>
+Did you mean?  artists_path):
+    1: <%= form_for @artist do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationatily %>
+  
+app/views/artists/_form.html.erb:1:in `_app_views_artists__form_html_erb__1423068882793963396_70251055828560'
+app/views/artists/new.html.erb:3:in `_app_views_artists_new_html_erb__2798813846124929458_70251055780580'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateArtists (20190416041541)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE "artists"[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.3ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190416041541"]]
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateArtists (20190416041541)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190416041541_create_artists.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "artists" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" text, "nationatily" text, "dob" date, "period" text, "image" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190416041541_create_artists.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190416041541"]]
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateArtists (20190416041541)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[35mDROP TABLE "artists"[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190416041541"]]
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateArtists (20190416041541)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190416041541_create_artists.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "artists" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" text, "nationality" text, "dob" date, "period" text, "image" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190416041541_create_artists.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190416041541"]]
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mArtist Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/rubies/ruby-2.6.2/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mArtist Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:2
+  [1m[36mArtist Create (0.8ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Norman Lindsay"], ["nationality", "Australian"], ["dob", "1879-02-22"], ["period", "20th century"], ["image", "https://upload.wikimedia.org/wikipedia/commons/3/32/Norman_Lindsay_1931.jpg"], ["created_at", "2019-04-16 05:58:54.408065"], ["updated_at", "2019-04-16 05:58:54.408065"]]
+  ↳ db/seeds.rb:2
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:3
+  [1m[36mArtist Create (0.9ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Russell Drysdale"], ["nationality", "Australian"], ["dob", "1912-02-07"], ["period", "20th century"], ["image", "https://upload.wikimedia.org/wikipedia/commons/c/ca/Russell_Drysdale_Max_Dupain_1945.jpg"], ["created_at", "2019-04-16 05:58:54.422260"], ["updated_at", "2019-04-16 05:58:54.422260"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mArtist Create (0.4ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "James Gleeson"], ["nationality", "Australian"], ["dob", "1915-11-21"], ["period", "20th century"], ["image", "https://media.artgallery.nsw.gov.au/uploads/artists/James_Gleeson_nla.jpg"], ["created_at", "2019-04-16 05:58:54.427112"], ["updated_at", "2019-04-16 05:58:54.427112"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:5
+  [1m[36mArtist Create (0.3ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Sidney Nolan"], ["nationality", "Australian"], ["dob", "1917-04-22"], ["period", "20th century"], ["image", "https://upload.wikimedia.org/wikipedia/commons/e/ef/Portrait_of_Sidney_Nolan.jpg"], ["created_at", "2019-04-16 05:58:54.430474"], ["updated_at", "2019-04-16 05:58:54.430474"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mArtist Create (0.3ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Arthur Boyd"], ["nationality", "Australian"], ["dob", "1920-07-24"], ["period", "20th century"], ["image", "https://upload.wikimedia.org/wikipedia/en/9/98/Arthur_Boyd.jpg"], ["created_at", "2019-04-16 05:58:54.433860"], ["updated_at", "2019-04-16 05:58:54.433860"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:7
+  [1m[36mArtist Create (0.4ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Jeffrey Smart"], ["nationality", "Australian"], ["dob", "1921-07-26"], ["period", "20th century"], ["image", "https://upload.wikimedia.org/wikipedia/en/b/b0/Australian_artist_Jeffrey_Smart.jpg"], ["created_at", "2019-04-16 05:58:54.436594"], ["updated_at", "2019-04-16 05:58:54.436594"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mArtist Create (0.3ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "dob", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Brett Whiteley"], ["nationality", "Australian"], ["dob", "1939-04-07"], ["period", "20th century"], ["image", "https://www.portrait.gov.au/files/b/9/4/f/i9331.jpg"], ["created_at", "2019-04-16 05:58:54.439559"], ["updated_at", "2019-04-16 05:58:54.439559"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+Started GET "/artists/new" for ::1 at 2019-04-16 15:59:31 +1000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/monicamendes/.rvm/gems/ruby-2.6.2/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (41.1ms)
+  Rendered artists/new.html.erb within layouts/application (42.3ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `nationatily' for #<Artist:0x00007fc4e212bf98>
+Did you mean?  nationality
+               nationality=
+               nationality?):
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name, :autofocus => true, :required => true %>
+    4:   <%= f.label :nationatily %>
+    5:   <%= f.text_field :nationatily %>
+    6:   <%= f.label :dob, "Date of birth"%>
+    7:   <%= f.text_field :dob, :placeholder => 'YYYY-MM-DD'%>
+    8:   <%= f.label :period %>
+  
+app/views/artists/_form.html.erb:5:in `block in _app_views_artists__form_html_erb__4581043108589497352_70241792075860'
+app/views/artists/_form.html.erb:1:in `_app_views_artists__form_html_erb__4581043108589497352_70241792075860'
+app/views/artists/new.html.erb:3:in `_app_views_artists_new_html_erb___2744302017399645322_70241792015880'
+Started GET "/artists/new" for ::1 at 2019-04-16 15:59:51 +1000
+Processing by ArtistsController#new as HTML
+  Rendering artists/new.html.erb within layouts/application
+  Rendered artists/_form.html.erb (3.8ms)
+  Rendered artists/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 167ms (Views: 164.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/artists" for ::1 at 2019-04-16 16:00:34 +1000
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DC2b1RNJ4WGLFHRz8E4+xzIGeH6l0CAPbFvyKyqddB330qMj594AoeAGerVhEtmm0pugVxVz2ytqx9Hd9/M9uw==", "artist"=>{"name"=>"jcioaj", "nationality"=>"dwq", "dob"=>"868217", "period"=>"mfewlk", "image"=>""}, "commit"=>"Create Artist"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/artists_controller.rb:15
+  [1m[36mArtist Create (0.4ms)[0m  [1m[32mINSERT INTO "artists" ("name", "nationality", "period", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "jcioaj"], ["nationality", "dwq"], ["period", "mfewlk"], ["image", ""], ["created_at", "2019-04-16 06:00:34.262573"], ["updated_at", "2019-04-16 06:00:34.262573"]]
+  ↳ app/controllers/artists_controller.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/artists_controller.rb:15
+Redirected to http://localhost:3000/artists/8
+Completed 302 Found in 5ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/artists/8" for ::1 at 2019-04-16 16:00:34 +1000
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/artists_controller.rb:7
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 29.7ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/artists/8" for ::1 at 2019-04-16 16:00:37 +1000
+Processing by ArtistsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"693lEWC/ERG/mg4mfyp5TRo2W7hb4Qb+nRhojYiDdVIQIt3nlCjw0dSIAODudp4s+quDketC/dqbhEt7Ve089A==", "id"=>"8"}
+  [1m[36mArtist Load (0.1ms)[0m  [1m[34mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/artists_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/artists_controller.rb:31
+  [1m[36mArtist Destroy (0.3ms)[0m  [1m[31mDELETE FROM "artists" WHERE "artists"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/artists_controller.rb:31
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/artists_controller.rb:31
+Redirected to http://localhost:3000/artists
+Completed 302 Found in 8ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 16:00:37 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/artists" for ::1 at 2019-04-16 16:00:41 +1000
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:3
+  Rendered artists/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.3ms)
+
+

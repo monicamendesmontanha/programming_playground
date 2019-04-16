@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2019_04_16_041541) do
 
   create_table "artists", force: :cascade do |t|
     t.text "name"
-    t.text "nationatily"
+    t.text "nationality"
     t.date "dob"
     t.text "period"
     t.text "image"
