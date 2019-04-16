@@ -1,4 +1,4 @@
-CREATE TABLE planets {
+CREATE TABLE planets(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
   image TEXT,
@@ -6,4 +6,4 @@ CREATE TABLE planets {
   diameter FLOAT,
   mass FLOAT,
   moons INTEGER
-};
+);
