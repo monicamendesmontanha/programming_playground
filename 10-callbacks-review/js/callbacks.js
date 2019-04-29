@@ -26,6 +26,7 @@ $(document).ready(function () {
 console.log('III: after document ready');
 
 
+
 //////////////////////////////////////////
 // Event handlers  ///////////////////////
 //////////////////////////////////////////
@@ -36,3 +37,24 @@ $(document).on('click', function () {
 console.log('Chico');
 
 
+//////////////////////////////////////////
+//////////////////////////////////////////
+const colours = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+const each = function (someArray, callback) {
+  for (let i = 0; i < someArray.length; i++) {
+    callback( someArray[i] );
+  }
+};
+
+each(colours, function (c) {
+  console.log(c);
+});
+
+// colours.each do |c|
+//  puts c
+// end
+
+each(['Groucho', 'Harpo', 'Chico'], function (name) {
+  console.log( name + ' Marx' );
+});
