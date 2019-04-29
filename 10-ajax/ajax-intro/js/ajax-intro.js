@@ -10,7 +10,7 @@ xhr.onreadystatechange = function () {
   if (xhr.readyState !== 4) {
     return;
   }
-    console.log( 'here is the response:', xhr.responseText );
+  document.body.innerHTML = '<p>' + xhr.responseText + '</p>';
 };
 
 
