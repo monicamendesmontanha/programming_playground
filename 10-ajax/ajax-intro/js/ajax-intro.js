@@ -1,4 +1,8 @@
-console.log('loading...')
+const fetchFact = function () {
+  console.log('fetching fact')
+};
+
+document.getElementById('fetch').addEventListener('click', fetchFact);
 
 // get a XHR instance
 const xhr = new XMLHttpRequest();
@@ -10,7 +14,7 @@ xhr.onreadystatechange = function () {
   if (xhr.readyState !== 4) {
     return;
   }
-  document.body.innerHTML = '<p>' + xhr.responseText + '</p>';
+  // document.body.innerHTML = '<p>' + xhr.responseText + '</p>';
 };
 
 
