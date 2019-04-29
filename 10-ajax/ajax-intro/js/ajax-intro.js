@@ -18,3 +18,4 @@ const fetchFact = function () {
 };
 
 document.getElementById('fetch').addEventListener('click', fetchFact);
+fetchFact();
