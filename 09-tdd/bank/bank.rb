@@ -16,7 +16,7 @@ class Bank
   end
 
   def withdraw(account_name, amount)
-    @accounts[account_name] -= amount
+      @accounts[account_name] -= amount if (amount <= @accounts[account_name])
   end
 
   def balance(account_name)
