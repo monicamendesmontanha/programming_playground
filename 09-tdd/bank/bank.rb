@@ -11,4 +11,12 @@ class Bank
     @accounts[account_name] = balance
   end
 
+  def deposit(account_name, amount)
+    @accounts[account_name] += amount
+  end
+
+  def withdraw(account_name, amount)
+    @accounts[account_name] -= amount
+  end
+
 end
