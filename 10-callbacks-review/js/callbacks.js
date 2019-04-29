@@ -58,3 +58,9 @@ each(colours, function (c) {
 each(['Groucho', 'Harpo', 'Chico'], function (name) {
   console.log( name + ' Marx' );
 });
+
+
+// .forEach added in ES5
+colours.forEach(function (likky) {
+  console.log(likky)
+});
