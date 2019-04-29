@@ -37,4 +37,11 @@ describe Bank do
     end
   end
 
+  describe '#balance' do
+    it 'returns the balance for some particular account' do
+      bank.create_account 'Mad Robby', 500
+      expect(bank.balance('Mad Robby')).to eq 500
+    end
+  end
+
 end

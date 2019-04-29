@@ -19,4 +19,8 @@ class Bank
     @accounts[account_name] -= amount
   end
 
+  def balance(account_name)
+    @accounts[account_name]
+  end
+
 end
