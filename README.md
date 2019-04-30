@@ -10,5 +10,8 @@ This is a project for playing and learning through some exercises.
 - [x] Ruby
 - [x] Server
 - [x] Databases
-- [x] SQL 
+- [x] SQL
+- [x] Node.js
+- [x] TDD
+- [x] AJAX
 
