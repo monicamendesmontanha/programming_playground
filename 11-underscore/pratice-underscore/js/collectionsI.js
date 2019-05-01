@@ -35,14 +35,28 @@ var people = [
 
 // 4) Get an array of all of the people in people that have the username "E"
 const eUsers = _(people).where( {username: 'E'} );
-console.log(eUsers)
+console.log( eUsers );
 
 // 5) Find the first object in people that has the id of 3
+const user3 = _(people).findWhere( {id: 3} );
+console.log(user3);
 
 // 6) Find the first person who has an age of less than 50
+const youngPerson = _(people).find(function (person) {
+  return person.age < 50;
+});
+console.log( youngPerson );
+
+
 // 7) Get an array of all of the people with an age of over 60
+const olderPeople = _(people).filter(function (person) {
+  return person.age > 60;
+});
+console.log( olderPeople );
+
+
 // 8) Remove all of the people with an age less than 40
-const adults = _.reject(people, function (person) {
+const adults = _(people).reject(function (person) {
   return person.age < 40;
 });
-console.log(`Adults: ${adults}` );
+console.log( adults );
