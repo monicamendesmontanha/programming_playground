@@ -498,3 +498,948 @@ Processing by DashboardController#brother as */*
 Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:41 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:44 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:46 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:50 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:53 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:56 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:03:59 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:02 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:04 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:08 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:11 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:14 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:16 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:19 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:23 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:26 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:29 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:32 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:35 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:38 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:41 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:44 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:47 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:50 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:53 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:56 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:04:58 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:02 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:04 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:08 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:11 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:14 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 98ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:17 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:20 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:23 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:26 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:29 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:05:32 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:22:51 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:22:54 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:22:57 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:00 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:03 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:06 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:09 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:12 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:15 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:18 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:21 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:24 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:27 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:30 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:33 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:36 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:39 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:42 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:45 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:48 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:51 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:54 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:23:57 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:00 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:03 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:06 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:09 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:12 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:15 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:17 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:20 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:24 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:27 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:30 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:33 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:36 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:39 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:42 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:45 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:48 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:51 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:53 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:56 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:24:59 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:02 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 11:25:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 101ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:07 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:10 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:13 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:16 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:19 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:22 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:25 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:28 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:31 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:34 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:37 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:40 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:43 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:46 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:49 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:52 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:55 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:25:58 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:01 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:04 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:07 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:10 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:13 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:16 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:19 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:22 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:25 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:28 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:31 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:34 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:37 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:40 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:43 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:46 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:49 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 11:26:50 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 97ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:51 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 11:26:52 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:53 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 11:26:54 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:54 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:26:58 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:01 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:04 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:06 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:10 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:12 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 11:27:13 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:14 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 25ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:17 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:27:20 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
