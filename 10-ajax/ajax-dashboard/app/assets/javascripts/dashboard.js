@@ -1,9 +1,11 @@
 $(document).ready(function () {
 
   const updateBrother = function() {
-    $.get('/api/brother').done(function (result) {
-      $('#brother').text(result);
-    });
+    // $.get('/api/brother').done(function (result) {
+    //   $('#brother').text(result);
+    // });
+
+    $('#brother').load('/api/brother');
   };
 
   setInterval(updateBrother, 3000);
@@ -11,9 +13,11 @@ $(document).ready(function () {
 
 
   const updateTime = function() {
-    $.get('/api/time').done(function (result) {
-      $('#time').text(result);
-    });
+    // $.get('/api/time').done(function (result) {
+    //   $('#time').text(result);
+    // });
+
+    $('#time').load('/api/time');
   };
 
   setInterval(updateTime, 1000);
@@ -21,9 +25,10 @@ $(document).ready(function () {
 
 
   const updateUptime = function() {
-    $.get('/api/uptime').done(function (result) {
-      $('#uptime').text(result);
-    });
+    // $.get('/api/uptime').done(function (result) {
+    //   $('#uptime').text(result);
+    // });
+    $('#uptime').load('/api/uptime');
   };
 
   setInterval(updateUptime, 5000);
@@ -31,9 +36,10 @@ $(document).ready(function () {
 
 
   const updateFortune = function() {
-    $.get('api/fortune').done(function (result) {
-      $('#fortune').text(result);
-    });
+    // $.get('api/fortune').done(function (result) {
+    //   $('#fortune').text(result);
+    // });
+    $('#fortune').load('/api/fortune');
   };
 
   setInterval(updateFortune, 15000);
