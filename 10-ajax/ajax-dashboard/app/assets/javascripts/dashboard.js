@@ -8,4 +8,15 @@ $(document).ready(function () {
 
   setInterval(updateBrother, 3000);
   updateBrother();
+
+
+  const updateTime = function() {
+    $.get('/api/time').done(function (result) {
+      $('#time').text(result);
+    });
+  };
+
+  setInterval(updateTime, 1000);
+  updateTime();
 });
+
