@@ -36,7 +36,7 @@ $(document).ready(function () {
     });
   };
 
-  setInterval(updateFortune, 5000);
+  setInterval(updateFortune, 15000);
   updateFortune();
 
 

@@ -8586,3 +8586,591 @@ Completed 200 OK in 12ms (Views: 1.7ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 7ms (Views: 1.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:26 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:28 +1000
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:28 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:28 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:29 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:30 +1000
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:46:30 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:46:30 +1000
+Processing by DashboardController#uptime as */*
+  Rendered text template (0.0ms)
+Processing by DashboardController#fortune as */*
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:31 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:31 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:32 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:33 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:33 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:35 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:46:35 +1000
+  Rendered text template (0.0ms)
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:46:35 +1000
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#uptime as */*
+Processing by DashboardController#fortune as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:36 +1000
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:36 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:38 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:40 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:40 +1000
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:46:40 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+Processing by DashboardController#fortune as */*
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:46:40 +1000
+  Rendered text template (0.0ms)
+Completed 200 OK in 23ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#uptime as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:41 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:43 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:43 +1000
+Processing by DashboardController#brother as */*
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:44 +1000
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:46:44 +1000
+Processing by DashboardController#uptime as */*
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:46:44 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering text template
+Processing by DashboardController#fortune as */*
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:45 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:45 +1000
+Processing by DashboardController#brother as */*
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:46 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:47 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:48 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:49 +1000
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:46:49 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#uptime as */*
+  Rendering text template
+  Rendered text template (0.4ms)
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 47ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:50 +1000
+Processing by DashboardController#time as */*
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:46:50 +1000
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#fortune as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 15ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:51 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:51 +1000
+  Rendered text template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:53 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:55 +1000
+Processing by DashboardController#brother as */*
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:55 +1000
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:46:55 +1000
+Processing by DashboardController#fortune as */*
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:46:55 +1000
+Processing by DashboardController#uptime as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 26ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 25ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:56 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:46:58 +1000
+Processing by DashboardController#time as */*
+Started GET "/api/brother" for ::1 at 2019-05-02 11:46:58 +1000
+  Rendering text template
+  Rendered text template (0.0ms)
+Processing by DashboardController#brother as */*
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:00 +1000
+Processing by DashboardController#time as */*
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:47:00 +1000
+  Rendering text template
+Processing by DashboardController#uptime as */*
+  Rendered text template (0.0ms)
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:00 +1000
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:47:00 +1000
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.4ms)
+Processing by DashboardController#fortune as */*
+Completed 200 OK in 24ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:01 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:03 +1000
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:03 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:04 +1000
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:47:04 +1000
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:47:04 +1000
+Processing by DashboardController#fortune as */*
+Processing by DashboardController#uptime as */*
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:05 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:06 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:06 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:07 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:09 +1000
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:47:09 +1000
+Processing by DashboardController#time as */*
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:09 +1000
+  Rendering text template
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:47:09 +1000
+Processing by DashboardController#brother as */*
+Processing by DashboardController#uptime as */*
+Processing by DashboardController#fortune as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:10 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:12 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:12 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+Processing by DashboardController#time as */*
+  Rendered text template (0.0ms)
+  Rendering text template
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:14 +1000
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:47:14 +1000
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:47:14 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#fortune as */*
+Processing by DashboardController#uptime as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:15 +1000
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:15 +1000
+Processing by DashboardController#time as */*
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:17 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:18 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:18 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+Processing by DashboardController#time as */*
+  Rendered text template (0.0ms)
+  Rendering text template
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:19 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Started GET "/api/uptime" for ::1 at 2019-05-02 11:47:19 +1000
+Started GET "/api/fortune" for ::1 at 2019-05-02 11:47:19 +1000
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by DashboardController#uptime as */*
+Processing by DashboardController#fortune as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:20 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 11:47:21 +1000
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:21 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+Processing by DashboardController#time as */*
+  Rendered text template (0.0ms)
+  Rendering text template
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/time" for ::1 at 2019-05-02 11:47:22 +1000
+Processing by DashboardController#time as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
