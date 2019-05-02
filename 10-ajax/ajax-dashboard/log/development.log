@@ -113,3 +113,66 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 540ms (Views: 514.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-05-02 10:56:26 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 141ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 10:57:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 10:57:35 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 10:57:36 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 69ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 10:57:36 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 10:57:37 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 10:57:38 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-02 10:57:38 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 54ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/brother" for ::1 at 2019-05-02 10:57:39 +1000
+Processing by DashboardController#brother as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
