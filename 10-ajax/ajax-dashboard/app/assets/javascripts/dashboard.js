@@ -18,5 +18,15 @@ $(document).ready(function () {
 
   setInterval(updateTime, 1000);
   updateTime();
+
+
+  const updateUptime = function() {
+    $.get('/api/uptime').done(function (result) {
+      $('#uptime').text(result);
+    });
+  };
+
+  setInterval(updateUptime, 5000);
+  updateUptime();
 });
 
