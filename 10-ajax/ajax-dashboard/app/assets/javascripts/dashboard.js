@@ -4,7 +4,6 @@ $(document).ready(function () {
     // $.get('/api/brother').done(function (result) {
     //   $('#brother').text(result);
     // });
-
     $('#brother').load('/api/brother');
   };
 
@@ -16,7 +15,6 @@ $(document).ready(function () {
     // $.get('/api/time').done(function (result) {
     //   $('#time').text(result);
     // });
-
     $('#time').load('/api/time');
   };
 
