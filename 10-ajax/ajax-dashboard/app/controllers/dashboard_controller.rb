@@ -13,4 +13,8 @@ class DashboardController < ApplicationController
     render :plain => `uptime` #backticks won't work on Heroku
   end
 
+  def fortune
+    render :plain => `fortune` #
+  end
+
 end

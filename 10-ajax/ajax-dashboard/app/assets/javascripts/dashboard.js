@@ -28,5 +28,17 @@ $(document).ready(function () {
 
   setInterval(updateUptime, 5000);
   updateUptime();
+
+
+  const updateFortune = function() {
+    $.get('api/fortune').done(function (result) {
+      $('#fortune').text(result);
+    });
+  };
+
+  setInterval(updateFortune, 5000);
+  updateFortune();
+
+
 });
 
