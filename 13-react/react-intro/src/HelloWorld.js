@@ -1,4 +1,4 @@
-import React, { Component } from 'react' // destructuring
+import React, { Component } from 'react'; // destructuring
 
 
 class HelloWorld extends Component {    // Same in ROR = class User < ActiveRecord::Base
