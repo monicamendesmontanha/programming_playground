@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <Profile name="Groucho" age="101" motto="No gods no master" pic="https://fillmurray.com/200/300"/>
-      <Profile name="Harpo" age="98" motto="No gods no master" pic="https://fillmurray.com/401/400"/>
-      <Profile name="Chico" age="99" motto="No gods no master" pic="https://fillmurray.com/400/400"/>
+      <Profile name="Harpo" age="98" motto="No gods no master" pic="https://fillmurray.com/200/300"/>
+      <Profile name="Chico" age="99" motto="No gods no master" pic="https://fillmurray.com/200/300"/>
     </div>
   );
 }
