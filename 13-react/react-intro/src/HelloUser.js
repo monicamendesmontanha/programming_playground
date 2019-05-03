@@ -4,7 +4,7 @@ class HelloUser extends Component {
   render() {
     // console.log( this.props.name )
     return (
-      <h2>Hello {this.props.name}</h2>
+      <h2>Hello {this.props.name || 'Mystery User' }</h2>
     )
   }
 };

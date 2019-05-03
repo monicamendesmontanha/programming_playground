@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <HelloWorld />
+      <HelloUser />
       <HelloUser name="Monica" />
       <HelloUser name="Juliana" />
       <HelloUser name="Renata" />
