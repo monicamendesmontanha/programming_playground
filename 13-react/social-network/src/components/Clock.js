@@ -4,11 +4,11 @@ class Clock extends Component {
   constructor() {
     super();
     this.state = { time: (new Date()).toString };
-    setInterval(function () {
+    setInterval(() => {
       this.setState({
         time: (new Date()).toString()
       });
-    }.bind(this), 1000);
+    }, 1000);
   }
   render() {
     return(
