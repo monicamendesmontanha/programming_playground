@@ -1,9 +1,10 @@
 import React from 'react';
+import Clickr from './Clickr';
 
 function App() {
   return (
     <div className="App">
-      <h1>is this thing on</h1>
+      <Clickr />
 
     </div>
   );
