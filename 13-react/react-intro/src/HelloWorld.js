@@ -1,6 +1,7 @@
 import React from 'react'
+const Component = React.Component;
 
-class HelloWorld extends React.Component {    // Same in ROR = class User < ActiveRecord::Base
+class HelloWorld extends Component {    // Same in ROR = class User < ActiveRecord::Base
   // every react component must have a method called render()
   render() {
     return (
