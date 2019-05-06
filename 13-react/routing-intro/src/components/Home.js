@@ -8,6 +8,9 @@ const Home = () => {
       <p>
         Please check out our <Link to="/faq">frequently asked questions</Link>.
       </p>
+      <p>
+        <Link to="/characters/luke">Luke Sky</Link>
+      </p>
     </div>
   )
 };
