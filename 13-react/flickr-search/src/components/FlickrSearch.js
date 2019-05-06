@@ -19,9 +19,18 @@ class FlickrSearch extends Component {
 
 class SearchForm extends Component {
 
+  fetchImages(query) {
+    console.log('Searching Flickr for', query)
+  }
+
+  _handleInput(event) {
+    console.log( event.target.value )
+  }
+
   _handleSubmit(event) {
     event.preventDefault();
     // AJAX request
+    this.fetchImages( this.state.query )
 
   }
 
@@ -29,7 +38,7 @@ class SearchForm extends Component {
   render() {
     return (
       <form onSubmit={ this._handleSubmit }>
-        <input type="search" placeholder="Butterfly" required />
+        <input type="search" placeholder="Butterfly" required onInput={ this._handleInput }/>
         <input type="submit" value="Search" />
       </form>
     )
