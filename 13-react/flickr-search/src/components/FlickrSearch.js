@@ -66,7 +66,7 @@ const Image = function (props) {
 const Gallery = function (props) {
   return (
     <div>
-      { this.props.images.map( (url) => <Image url={url} /> ) };
+      { props.images.map( (url) => <Image url={url} /> ) }
     </div>
   )
 };
@@ -76,7 +76,7 @@ class SearchForm extends Component {
     super();
     this.state = { query: ''};
     this._handleInput = this._handleInput.bind(this);
-    this._handleSubmit = this._handleSubmit.bind(this)
+    this._handleSubmit = this._handleSubmit.bind(this);
   }
 
 
