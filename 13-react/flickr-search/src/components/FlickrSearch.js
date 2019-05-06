@@ -7,6 +7,7 @@ import _ from 'underscore'
 // library: "jsonp es6"
 
 class FlickrSearch extends Component {
+
   render() {
     return(
       <div>
@@ -18,13 +19,19 @@ class FlickrSearch extends Component {
 }
 
 class SearchForm extends Component {
+  constructor() {
+    super();
+    this.state = { query: ''};
+    this._handleInput = this._handleInput.bind(this);
+    this._handleSubmit = this._handleSubmit.bind(this)
+  }
 
   fetchImages(query) {
     console.log('Searching Flickr for', query)
   }
 
   _handleInput(event) {
-    console.log( event.target.value )
+    this.setState({query: event.target.value });
   }
 
   _handleSubmit(event) {
