@@ -53,8 +53,20 @@ class FlickrSearch extends Component {
       <div>
         <h1>Image Search</h1>
         <SearchForm onSubmit={ this.fetchImages }/>
+        <Gallery images={ this.state.images } />
       </div>
     );
+  }
+}
+
+class Gallery extends Component {
+  render() {
+   // console.log( this.props.images )
+    return(
+      <div>
+        { this.props.images.join('!!! ') }
+      </div>
+    )
   }
 }
 
