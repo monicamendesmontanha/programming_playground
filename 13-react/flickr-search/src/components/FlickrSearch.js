@@ -36,11 +36,27 @@ class SearchForm extends Component {
       format: 'json'
     };
 
+    const generateURL = (p) => {
+      return [
+        'http://farm',
+        p.farm,
+        '.static.flickr.com/',
+        p.server,
+        '/',
+        p.id,
+        '_',
+        p.secret,
+        '_q.jpg' // Change q to something else for different sizes -- see docs
+      ].join('');
+    };
+
     // This initiates the request to Flickr using JSONP
     // IRL: we'd use axios of fetch.
     jsonp(flickrURL, flickrParams, {callback: 'jsoncallback'}).then((results) => {
+      const images = _(results.photos.photo).map( generateURL );  // could also use native .map
       console.log( results );
-    })
+      console.log( images );
+    });
   }
 
   _handleInput(event) {
