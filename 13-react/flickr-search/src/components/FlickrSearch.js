@@ -8,22 +8,10 @@ import _ from 'underscore'
 
 class FlickrSearch extends Component {
 
-  render() {
-    return(
-      <div>
-        <h1>Image Search</h1>
-        <SearchForm />
-      </div>
-    );
-  }
-}
-
-class SearchForm extends Component {
   constructor() {
     super();
-    this.state = { query: ''};
-    this._handleInput = this._handleInput.bind(this);
-    this._handleSubmit = this._handleSubmit.bind(this)
+    this.state = { images: [] };
+    this.fetchImages = this.fetchImages.bind(this); // this == FlickrSearch
   }
 
   fetchImages(q) {
@@ -54,10 +42,31 @@ class SearchForm extends Component {
     // IRL: we'd use axios of fetch.
     jsonp(flickrURL, flickrParams, {callback: 'jsoncallback'}).then((results) => {
       const images = _(results.photos.photo).map( generateURL );  // could also use native .map
-      console.log( results );
-      console.log( images );
+      // console.log( results );
+      // console.log( images );
+      this.setState({ images: images })
     });
   }
+
+  render() {
+    return(
+      <div>
+        <h1>Image Search</h1>
+        <SearchForm onSubmit={ this.fetchImages }/>
+      </div>
+    );
+  }
+}
+
+class SearchForm extends Component {
+  constructor() {
+    super();
+    this.state = { query: ''};
+    this._handleInput = this._handleInput.bind(this);
+    this._handleSubmit = this._handleSubmit.bind(this)
+  }
+
+
 
   _handleInput(event) {
     this.setState({query: event.target.value });
@@ -66,7 +75,8 @@ class SearchForm extends Component {
   _handleSubmit(event) {
     event.preventDefault();
     // AJAX request
-    this.fetchImages( this.state.query )
+    // this.fetchImages( this.state.query )
+    this.props.onSubmit( this.state.query)
 
   }
 
