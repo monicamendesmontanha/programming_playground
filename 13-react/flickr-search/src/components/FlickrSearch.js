@@ -12,9 +12,16 @@ class FlickrSearch extends Component {
 }
 
 class SearchForm extends Component {
+
+  _handleSubmit(event) {
+    event.preventDefault();
+    console.log('form submit');
+  }
+
+
   render() {
     return (
-      <form>
+      <form onSubmit={ this._handleSubmit }>
         <input type="search" placeholder="Butterfly" required />
         <input type="submit" value="Search" />
       </form>
