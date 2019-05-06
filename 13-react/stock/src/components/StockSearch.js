@@ -31,9 +31,14 @@ class StockSearch extends Component {
 
 const Info = function (props) {
   return (
-    <div>
-      { props.info.description }
-    </div>
+    <ul>
+      <li> Company Name: { props.info.companyName }</li>
+      <li> CEO: { props.info.CEO }</li>
+      <li> Description: { props.info.description }</li>
+      <li> Industry: { props.info.industry }</li>
+      <li> Sector: { props.info.sector }</li>
+      <li> Website: { props.info.website }</li>
+    </ul>
   )
 };
 
