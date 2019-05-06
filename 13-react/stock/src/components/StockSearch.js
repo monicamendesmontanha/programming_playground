@@ -14,6 +14,10 @@ class StockSearch extends Component {
 
 class SearchForm extends Component {
 
+  _handleInput(event) {
+    console.log( event.target.value )
+  }
+
   _handleSubmit(event) {
     event.preventDefault();
     console.log('Clicked');
@@ -22,7 +26,7 @@ class SearchForm extends Component {
   render() {
     return (
       <form onSubmit={ this._handleSubmit }>
-        <input type="search" placeholder="AAPL" required/>
+        <input type="search" placeholder="AAPL" required onInput={ this._handleInput }/>
         <input type="submit" value="Search" />
       </form>
     )

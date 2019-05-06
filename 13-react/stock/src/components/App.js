@@ -1,5 +1,4 @@
 import React from 'react';
-import Stock from './StockSearch';
 import StockSearch from './StockSearch';
 
 function App() {
