@@ -1,18 +1,41 @@
 import React, { Component } from 'react';
 import { IEXClient } from 'iex-api';
-import { EventEmitter } from 'events';
 
 class StockSearch extends Component {
+  constructor() {
+    super();
+    this.state = { info: [] };
+    this.fetchStocks = this.fetchStocks.bind(this); // this == StockSearch
+  }
+
+  fetchStocks(query) {
+    // console.log('searching for', query)
+    const fetch = window.fetch.bind(window);
+    const info = new IEXClient(fetch);
+    info.stockCompany(query).then(company => this.setState({ info: company })
+    )
+    // this.setState({ info: info })
+  }
+
   render() {
     return (
       <div>
         <h1>STOCK SEARCH</h1>
-        <SearchForm />
+        <SearchForm onSubmit={ this.fetchStocks } />
+        <Info info={ this.state.info }  />
       </div>
-
     );
   }
 }
+
+
+const Info = function (props) {
+  return (
+    <div>
+      { props.info.description }
+    </div>
+  )
+};
 
 class SearchForm extends Component {
 
@@ -23,12 +46,6 @@ class SearchForm extends Component {
     this._handleSubmit = this._handleSubmit.bind(this);
   }
 
-  fetchStocks(query) {
-    // console.log('searching for', query)
-    const fetch = window.fetch.bind(window);
-    const iex = new IEXClient(fetch);
-    iex.stockCompany(query).then(company => console.log(company))
-  }
 
   _handleInput(event) {
     // console.log( event.target.value )
@@ -37,7 +54,7 @@ class SearchForm extends Component {
 
   _handleSubmit(event) {
     event.preventDefault();
-    this.fetchStocks( this.state.query)
+    this.props.onSubmit( this.state.query)
   }
 
   render() {
