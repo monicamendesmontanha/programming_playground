@@ -24,7 +24,10 @@ class SearchForm extends Component {
   }
 
   fetchStocks(query) {
-    console.log('searching for', query)
+    // console.log('searching for', query)
+    const fetch = window.fetch.bind(window);
+    const iex = new IEXClient(fetch);
+    iex.stockCompany(query).then(company => console.log(company))
   }
 
   _handleInput(event) {
@@ -35,9 +38,6 @@ class SearchForm extends Component {
   _handleSubmit(event) {
     event.preventDefault();
     this.fetchStocks( this.state.query)
-    // const fetch = window.fetch.bind(window);
-    // const iex = new IEXClient(fetch);
-    // iex.stockCompany('AAPL').then(company => console.log(company))
   }
 
   render() {
