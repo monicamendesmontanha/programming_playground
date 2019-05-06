@@ -66,7 +66,7 @@ const Image = function (props) {
 const Gallery = function (props) {
   return (
     <div>
-      { props.images.map( (url) => <Image url={url} /> ) }
+      { props.images.map( (url) => <Image url={url} key={url}/> ) }
     </div>
   )
 };
