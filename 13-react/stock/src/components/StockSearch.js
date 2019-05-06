@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { IEXClient } from 'iex-api';
 
 class StockSearch extends Component {
   render() {
@@ -20,7 +21,9 @@ class SearchForm extends Component {
 
   _handleSubmit(event) {
     event.preventDefault();
-    console.log('Clicked');
+    const fetch = window.fetch.bind(window);
+    const iex = new IEXClient(fetch);
+    iex.stockCompany('AAPL').then(company => console.log(company))
   }
 
   render() {
