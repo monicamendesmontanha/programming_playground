@@ -1,10 +1,11 @@
 import React from 'react';
+import FlickrSearch from './FlickrSearch';
 
 
 function App() {
   return (
     <div className="App">
-      Flickr coming soon
+      <FlickrSearch />
     </div>
   );
 }
