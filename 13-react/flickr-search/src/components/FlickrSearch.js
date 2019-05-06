@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import jsonp from 'jsonp-es6';
+import _ from 'underscore'
 
 // previous version: $.ajax / $.getJSON => jsonp
 // axios does not support JSONP
