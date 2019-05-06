@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { IEXClient } from 'iex-api';
+import { EventEmitter } from 'events';
 
 class StockSearch extends Component {
   render() {
@@ -15,15 +16,28 @@ class StockSearch extends Component {
 
 class SearchForm extends Component {
 
+  constructor() {
+    super();
+    this.state = { query: '' };
+    this._handleInput = this._handleInput.bind(this);
+    this._handleSubmit = this._handleSubmit.bind(this);
+  }
+
+  fetchStocks(query) {
+    console.log('searching for', query)
+  }
+
   _handleInput(event) {
-    console.log( event.target.value )
+    // console.log( event.target.value )
+    this.setState({ query: event.target.value });
   }
 
   _handleSubmit(event) {
     event.preventDefault();
-    const fetch = window.fetch.bind(window);
-    const iex = new IEXClient(fetch);
-    iex.stockCompany('AAPL').then(company => console.log(company))
+    this.fetchStocks( this.state.query)
+    // const fetch = window.fetch.bind(window);
+    // const iex = new IEXClient(fetch);
+    // iex.stockCompany('AAPL').then(company => console.log(company))
   }
 
   render() {
