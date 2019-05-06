@@ -26,8 +26,21 @@ class SearchForm extends Component {
     this._handleSubmit = this._handleSubmit.bind(this)
   }
 
-  fetchImages(query) {
-    console.log('Searching Flickr for', query)
+  fetchImages(q) {
+    console.log('Searching Flickr for', q);
+    const flickrURL = 'https://api.flickr.com/services/rest?jsoncallback=?';
+    const flickrParams = {
+      method: 'flickr.photos.search',
+      api_key: '2f5ac274ecfac5a455f38745704ad084',
+      text: q,
+      format: 'json'
+    };
+
+    // This initiates the request to Flickr using JSONP
+    // IRL: we'd use axios of fetch.
+    jsonp(flickrURL, flickrParams, {callback: 'jsoncallback'}).then((results) => {
+      console.log( results );
+    })
   }
 
   _handleInput(event) {
