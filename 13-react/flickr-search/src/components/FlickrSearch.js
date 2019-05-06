@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import jsonp from 'jsonp-es6';
+
+// previous version: $.ajax / $.getJSON => jsonp
+// axios does not support JSONP
+// library: "jsonp es6"
 
 class FlickrSearch extends Component {
   render() {
@@ -15,7 +20,8 @@ class SearchForm extends Component {
 
   _handleSubmit(event) {
     event.preventDefault();
-    console.log('form submit');
+    // AJAX request
+
   }
 
 
