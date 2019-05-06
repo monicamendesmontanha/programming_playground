@@ -61,7 +61,7 @@ class FlickrSearch extends Component {
 
 const Image = function (props) {
   return (
-    <img src={ props.url } width="150" height="150" />
+    <img src={ props.url } width="150" height="150" alt=""/>
   )
 };
 
