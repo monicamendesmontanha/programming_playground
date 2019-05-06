@@ -59,12 +59,18 @@ class FlickrSearch extends Component {
   }
 }
 
+const Image = function (props) {
+  return (
+    <img src={ props.url } width="150" height="150" />
+  )
+};
+
 class Gallery extends Component {
   render() {
    // console.log( this.props.images )
     return(
       <div>
-        { this.props.images.join('!!! ') }
+        { this.props.images.map( (url) => <Image url={ url } /> ) }
       </div>
     )
   }
