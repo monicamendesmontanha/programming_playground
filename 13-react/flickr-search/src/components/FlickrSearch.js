@@ -60,21 +60,16 @@ class FlickrSearch extends Component {
 }
 
 const Image = function (props) {
-  return (
-    <img src={ props.url } width="150" height="150" alt=""/>
-  )
+  return <img src={ props.url } width="150" height="150" alt=""/>;
 };
 
-class Gallery extends Component {
-  render() {
-   // console.log( this.props.images )
-    return(
-      <div>
-        { this.props.images.map( (url) => <Image url={ url } /> ) }
-      </div>
-    )
-  }
-}
+const Gallery = function (props) {
+  return (
+    <div>
+      { this.props.images.map( (url) => <Image url={url} /> ) };
+    </div>
+  )
+};
 
 class SearchForm extends Component {
   constructor() {
