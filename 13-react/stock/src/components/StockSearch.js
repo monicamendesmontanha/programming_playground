@@ -5,10 +5,21 @@ class StockSearch extends Component {
     return (
       <div>
         <h1>STOCK SEARCH</h1>
-        {/* <SearchForm /> */}
+        <SearchForm />
       </div>
 
     );
+  }
+}
+
+class SearchForm extends Component {
+  render() {
+    return (
+      <form>
+        <input tyoe="search" placeholder="AAPL" required/>
+        <input type="submit" value="Search" />
+      </form>
+    )
   }
 }
 
