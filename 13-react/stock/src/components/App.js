@@ -1,10 +1,11 @@
 import React from 'react';
-import Stock from './Stock';
+import Stock from './StockSearch';
+import StockSearch from './StockSearch';
 
 function App() {
   return (
     <div className="App">
-     <Stock />
+     <StockSearch />
     </div>
   );
 }
