@@ -40,7 +40,17 @@ end
 
 
 
-# version iterative recursion
+# version lienar iterative recursion
+def fib(n, a=1, b=1)
+  puts "n: #{n}, a: #{ a }, b #{ b }"
+  if n === 1 || n === 2 # base case
+    b
+  else
+    fib(n-1, b, a+b) # tail recursion
+  end
+end
+
+fib(50)
 
 
 
