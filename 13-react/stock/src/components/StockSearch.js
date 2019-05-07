@@ -14,7 +14,6 @@ class StockSearch extends Component {
     const info = new IEXClient(fetch);
     info.stockCompany(query).then(company => this.setState({ info: company })
     )
-    // this.setState({ info: info })
   }
 
   render() {
