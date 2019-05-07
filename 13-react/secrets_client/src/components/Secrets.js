@@ -5,10 +5,10 @@ class Secrets extends Component {
   constructor() {
     super();
     this.state = {
-      //TODO: replace these via AJAX
-      secrets: [{"id":1,"content":"I cleaned the toilet today","created_at":"2019-05-07T01:32:52.093Z","updated_at":"2019-05-07T01:32:52.093Z","url":"http://localhost:3000/secrets/1.json"},{"id":2,"content":"I fed my cats a month","created_at":"2019-05-07T01:33:13.824Z","updated_at":"2019-05-07T01:33:13.824Z","url":"http://localhost:3000/secrets/2.json"}]
+      secrets: []
     };
     this.saveSecret = this.saveSecret.bind(this);
+    //request secrets from the server
   }
 
   saveSecret(content) {
