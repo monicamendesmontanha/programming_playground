@@ -11,6 +11,7 @@ def fibonacci_iterative(n)
   b   #nth fibonacci naumber
 end
 
+
 # version quadratic
 def fibonacci_recursive(n)
   if n === 1 || n === 2
@@ -21,7 +22,23 @@ def fibonacci_recursive(n)
   end
 end
 
+
 # version memoisation
+def fibonacci_recursive(n)
+  @fib ||= {} #@fib = @fib || {}
+
+  if @fib[n] # Previously found and saved in this "memoisation" hash
+    @fib[n]
+  elsif n === 1 || n === 2
+    1   # basic case
+  else
+    result = fib_memo(n - 1) + fib_memo(n - 2)
+    @fib[n] = result
+    result
+  end
+end
+
+
 
 # version iterative recursion
 
