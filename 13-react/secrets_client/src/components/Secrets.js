@@ -26,7 +26,10 @@ class Secrets extends Component {
 class SecretForm extends Component {
   render() {
     return(
-      <h2>Form</h2>
+      <form>
+        <textarea></textarea>
+        <input type="submit" value="Tell"/>
+      </form>
     );
   }
 };
