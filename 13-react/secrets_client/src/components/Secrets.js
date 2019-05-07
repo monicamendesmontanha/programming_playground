@@ -11,29 +11,23 @@ class Secrets extends Component {
       secrets: []
     };
     this.saveSecret = this.saveSecret.bind(this);
-    //request secrets from the server
-    axios.get(SERVER_URL).then( (results) => {
-      console.log(results.data);
-      this.setState({ secrets: results.data })
-    });
-    // make those secrets the new state
+
+    const fetchSecrets = () => {
+      axios.get(SERVER_URL).then( (results) => {
+        this.setState({ secrets: results.data });
+        setTimeout(fetchSecrets, 4000); // recursion
+      });
+    };
+    fetchSecrets();
   }
 
   saveSecret(content) {
-    // turn the content into a secret object
-    const secret = {
-      id: Math.random(),
-      content: content
-    };
-
-    //TODO: ES6
-    const newSecrets = this.state.secrets.slice(0); // ES5 copy
-    newSecrets.push( secret );
-
     // add the secret to the state (the collection of secrets)
-    this.setState({ secrets: newSecrets })
+    axios.post(SERVER_URL, { content: content }).then( (result) => {
+      console.log( result )
 
-
+      this.setState({ secrets: [...this.state.secrets, result.data ]});
+    });
   }
 
 
