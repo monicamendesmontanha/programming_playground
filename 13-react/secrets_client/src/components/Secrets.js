@@ -13,7 +13,8 @@ class Secrets extends Component {
     this.saveSecret = this.saveSecret.bind(this);
     //request secrets from the server
     axios.get(SERVER_URL).then( (results) => {
-      console.log(results)
+      console.log(results.data);
+      this.setState({ secrets: results.data })
     });
     // make those secrets the new state
   }
