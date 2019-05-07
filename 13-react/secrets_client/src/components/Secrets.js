@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:3000/secrets.json';  // Change this to Heroku URL once deployed.
+// const SERVER_URL = 'http://localhost:3000/secrets.json';  // Change this to Heroku URL once deployed.
+const SERVER_URL = 'http://8a0d9fc1.ngrok.io/secrets.json';   // test
 
 class Secrets extends Component {
 
