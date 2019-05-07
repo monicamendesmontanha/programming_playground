@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+
+const SERVER_URL = 'http://localhost:3000/secrets.json';  // Change this to Heroku URL once deployed.
 
 class Secrets extends Component {
 
@@ -9,6 +12,10 @@ class Secrets extends Component {
     };
     this.saveSecret = this.saveSecret.bind(this);
     //request secrets from the server
+    axios.get(SERVER_URL).then( (results) => {
+      console.log(results)
+    });
+    // make those secrets the new state
   }
 
   saveSecret(content) {
