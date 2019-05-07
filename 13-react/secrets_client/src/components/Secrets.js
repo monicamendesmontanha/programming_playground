@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class Secrets extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      //TODO: replace these via AJAX
+      secrets: [{"id":1,"content":"I cleaned the toilet today","created_at":"2019-05-07T01:32:52.093Z","updated_at":"2019-05-07T01:32:52.093Z","url":"http://localhost:3000/secrets/1.json"}]
+    }
+  }
+
+
   render() {
     return(
       <div>
@@ -24,7 +34,7 @@ class SecretForm extends Component {
 class Gallery extends Component {
   render() {
     return(
-      <h2>Gallery</h2>
+      <h3>Gallery</h3>
     );
   }
 };
