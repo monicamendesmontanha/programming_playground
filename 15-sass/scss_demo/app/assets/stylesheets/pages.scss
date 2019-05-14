@@ -31,23 +31,28 @@ h1 {
   border-bottom: 1px solid #000;
   background-color: #fff;
   border-radius: 0.5em;
+
+  h2 {
+    @include greyItalic;
+  }
+
+  h3.author {
+    text-align: right;
+  }
+
+  .content {
+    border: 1px solid $brand-color;
+    padding: 1em;
+    border-radius: 0.5em;
+
+    p {
+      font-size: 120%;
+      letter-spacing: 1px;
+    }
+
+  }
+
+
 }
 
-.post h2 {
-  @include greyItalic;
-}
 
-.post h3.author {
-  text-align: right;
-}
-
-.post .content {
-  border: 1px solid $brand-color;
-  padding: 1em;
-  border-radius: 0.5em;
-}
-
-.post .content p {
-  font-size: 120%;
-  letter-spacing: 1px;
-}
