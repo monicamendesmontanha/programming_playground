@@ -52,7 +52,37 @@ h1 {
 
   }
 
-
 }
 
+.notification {
+  border: 1px solid black;
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: blue;
+  padding: 1em;
+  font-size: 150%;
+  font-weight: bold;
+}
 
+.error {
+  border: 1px solid black;
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: red;
+  padding: 1em;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.success {
+  border: 1px solid black;
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: green;
+  padding: 1em;
+  font-size: 150%;
+  font-weight: bold;
+}
