@@ -7,6 +7,11 @@ $centered: 0 auto;
   background-color: $brand-color;
 }
 
+@mixin greyItalic {
+  font-style: italic;
+  color: grey;
+}
+
 
 body {
   margin: 0;
@@ -29,8 +34,7 @@ h1 {
 }
 
 .post h2 {
-  color: rgb(138, 135, 135);
-  font-style: italic;
+  @include greyItalic;
 }
 
 .post h3.author {
