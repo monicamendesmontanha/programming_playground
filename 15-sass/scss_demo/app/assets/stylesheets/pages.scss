@@ -1,7 +1,11 @@
+// variables
+$brand-color: #ccc;
+
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #ccc;
+  background-color: $brand-color;
 }
 
 h1 {
@@ -28,7 +32,7 @@ h1 {
 }
 
 .post .content {
-  border: 1px solid #ccc;
+  border: 1px solid $brand-color;
   padding: 1em;
   border-radius: 0.5em;
 }
