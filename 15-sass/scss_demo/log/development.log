@@ -92,3 +92,10 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-05-14 14:26:49 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 164ms (Views: 155.4ms | ActiveRecord: 0.0ms)
+
+

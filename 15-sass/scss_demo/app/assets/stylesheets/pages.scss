@@ -1,11 +1,17 @@
-// variables
+// Variables:
 $brand-color: #ccc;
+$centered: 0 auto;
+
+// "Functions":
+@mixin colouredBackground {
+  background-color: $brand-color;
+}
 
 
 body {
   margin: 0;
   padding: 0;
-  background-color: $brand-color;
+  @include colouredBackground;
 }
 
 h1 {
@@ -14,7 +20,7 @@ h1 {
 
 .post {
   max-width: 960px;
-  margin: 0 auto;
+  margin: $centered;
   margin-bottom: 3em;
   padding: 1em;
   border-bottom: 1px solid #000;
