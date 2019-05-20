@@ -1,0 +1,34 @@
+# REGULAR EXPRESSIONS - RUBY
+/oo/
+
+Metacharacters
+/o.o/ =~ "oto"
+/o.o/ =~ "oXo"
+/o.o/ =~ "o o"
+/o.o/ =~ "ooo"
+
+
+Quantifiers
+? - null or 1
++ - 1 or more
+* - 0 or more
+
+Super # Any old junk matcher
+/.*/
+
+ex: /Mo.*a/ =~ "Monica"
+ex: /Mo.*a/ =~ "Monniquinha"
+
+
+Alternatives
+ex: "Have you seen John" =~ /John|Jane/
+
+Classes [ ]
+ex:
+"The value is 75" =~ /[0123456789]/
+
+"The value is 75" =~ /[0-9]/
+
+
+Negated class [ˆ ]
+/[ˆ0-9]/ =~ !!!
