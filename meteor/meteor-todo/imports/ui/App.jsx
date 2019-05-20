@@ -13,10 +13,10 @@ class App extends Component {
     event.preventDefault();
 
     // Find the text field via the React ref
-    const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
+    const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim(); //.trim() = removes whitespace from both ends of a string.
 
     Tasks.insert({
-      text,
+      text,                   // equivalent to: text: text,
       createdAt: new Date(), // current time
     });
 
@@ -55,6 +55,6 @@ class App extends Component {
 
 export default withTracker(() => {
   return {
-    tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
+    tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),  //any new tasks that you add should appear at the top of the list, rather than at the bottom.
   };
 })(App);
