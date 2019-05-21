@@ -7,7 +7,9 @@ const http = require('http'); //Node standar libraries
 http.createServer((req, res) => {
   console.log(`Serving request: ${ req.method } ${ req.url }`);
   res.writeHeader(200, {'Content-Type': 'text/plain'});
-  res.end('HELLO WORLD')
+  res.end('GOODBYE WORLD')
 }).listen(1337);
 
 console.log('Server is running at http://localhost:1337/');
+
+// npm install -g nodemon
