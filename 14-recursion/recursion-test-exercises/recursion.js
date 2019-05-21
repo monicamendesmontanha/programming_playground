@@ -14,9 +14,11 @@ function findMax (array, max=-Infinity) {
     return findMax(array.slice(1), max);
 }
 
-function factorial(){
-    // This function returns the factorial of a given number.
+function factorial (n) {
+  // This function returns the factorial of a given number.
+  return (n <= 1) ? 1 : n * factorial(n - 1);
 }
+
 
 function fibonacci(){
     // This function returns the Nth number in the fibonacci sequence.
