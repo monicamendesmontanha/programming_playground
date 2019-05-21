@@ -48,6 +48,37 @@
   });
   </script>
 
+  <div id="app-4">
+    <ol>
+      <li v-for="todo in todos">
+        {{ todo.text }}
+      </li>
+    </ol>
+  </div>
+
+  <script>
+  const app4 = new Vue ({
+    el: '#app-4',
+    data: {
+      todos: [
+        { text: 'Learn more JS' },
+        { text: 'Learn more React' },
+        { text: 'Learn more Vue js' },
+        { text: 'Learn more Node js' },
+      ]
+    }
+  });
+
+  </script>
+
 
 </body>
 </html>
+
+
+// console
+// Vue
+// app4.todos
+// app4.todos[0]
+// app4.todos[0].text
+// app4.todos[0].text = "Learn more ES6"
