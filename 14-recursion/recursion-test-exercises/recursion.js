@@ -2,7 +2,7 @@
 // You will have to figure out what parameters to include
 // All functions must use recursion
 
-function findMax(){
+function findMax (array, max=-Infinity) {
     // This function returns the largest number in a given array.
     if (array.length === 0) {
       return max;
