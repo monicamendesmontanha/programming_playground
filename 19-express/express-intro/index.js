@@ -11,4 +11,10 @@ server.get('/', (req, res) => {
   res.send('How ya doing');
 });
 
+server.get('/about', (req, res) => {
+  console.log('GET /about');
+  res.send('About me')
+
+});
+
 server.listen(PORT, () => console.log(`Now serving on htttp://localhost:${PORT}/`));
