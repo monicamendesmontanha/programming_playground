@@ -19,11 +19,12 @@ function factorial (n) {
   return (n <= 1) ? 1 : n * factorial(n - 1);
 }
 
-
-function fibonacci(){
-    // This function returns the Nth number in the fibonacci sequence.
-    // https://en.wikipedia.org/wiki/Fibonacci_number
-    // For this function, the first two fibonacci numbers are 1 and 1
+// This function returns the Nth number in the fibonacci sequence.
+// https://en.wikipedia.org/wiki/Fibonacci_number
+// For this function, the first two fibonacci numbers are 1 and 1
+// O(2^N)
+function fibonacci (n, a=1, b=1) {
+  return (n <= 2) ? b : fibonacci(n-1, b, a+b);
 }
 
 function coinFlips(){
