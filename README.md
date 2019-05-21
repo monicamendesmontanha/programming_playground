@@ -14,4 +14,12 @@ This is a project for playing and learning through some exercises.
 - [x] Node.js
 - [x] TDD
 - [x] AJAX
+- [x] undescore
+- [x] Big O Notation
+- [x] React
+- [x] Recursion
+- [x] SASS
+- [x] Regular Expressions
+- [x] Vue.js
+
 
