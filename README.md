@@ -11,7 +11,7 @@ This is a project for playing and learning through some exercises.
 - [x] Server
 - [x] Databases
 - [x] SQL
-- [x] Node.js
+- [x] elm
 - [x] TDD
 - [x] AJAX
 - [x] undescore
@@ -21,5 +21,6 @@ This is a project for playing and learning through some exercises.
 - [x] SASS
 - [x] Regular Expressions
 - [x] Vue.js
+- [x] Node.js
 
 
