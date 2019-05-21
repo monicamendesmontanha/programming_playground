@@ -6,8 +6,17 @@ const http = require('http'); //Node standar libraries
 
 http.createServer((req, res) => {
   console.log(`Serving request: ${ req.method } ${ req.url }`);
+
   res.writeHeader(200, {'Content-Type': 'text/plain'});
-  res.end('GOODBYE WORLD')
+
+  if ( req.url === '/hello') {
+    res.end('hello world');
+  } else if (req.url === '/hey') {
+    res.end('hey world');
+  } else {
+    res.end('hi world');
+  }
+
 }).listen(1337);
 
 console.log('Server is running at http://localhost:1337/');
