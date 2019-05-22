@@ -32,7 +32,7 @@ axios( sourceURL ).then((response) => {
 
 
   //  4. Save the array to a file
-  fs.writeFile('./martin.json', JSON.stringify(entries), () => {
+  fs.writeFile('./martin.json', JSON.stringify(entries, null, 4), () => {     // 4 = pretty printing with 4 spaces of indentation
     console.log(`martin.json saved (${ entries.length } entries)`);
   });
 });
