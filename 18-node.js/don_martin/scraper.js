@@ -1,3 +1,4 @@
+const fs = require('fs');
 const axios = require('axios');
 const $ = require('cheerio');
 
@@ -29,7 +30,11 @@ axios( sourceURL ).then((response) => {
     entries.push( entry );
   });
 
+
   //  4. Save the array to a file
+  fs.writeFile('./martin.json', JSON.stringify(entries), () => {
+    console.log(`martin.json saved (${ entries.length } entries)`);
+  });
 });
 
 
