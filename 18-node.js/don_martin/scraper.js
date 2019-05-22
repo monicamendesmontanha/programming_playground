@@ -11,16 +11,27 @@ axios( sourceURL ).then((response) => {
   const $rows = $('table table tr:nth-child(n+2)', html);   // console: node scraper.js | head
   // console.log( $rows.length );
 
+
+  const entries = [];
+
+
   //  2. Interate through the results
   $rows.each(function () {
     $cells = $('td', this);   // An array of 4 <td> cells.
-    console.log( $cells.eq(0).text() );
+    // console.log( $cells.eq(0).text() );
+    const entry = {
+      sound: $cells.eq(0).text(),
+      description: $cells.eq(1).text(),
+      source: $cells.eq(2).text(),
+      article:  $cells.eq(3).text()
+    };
+    //  3. Push each sound into an array
+    entries.push( entry );
   });
 
+  //  4. Save the array to a file
 });
 
 
-//  3. Push each sound into an array
-//  4. Save the array to a file
 
 
