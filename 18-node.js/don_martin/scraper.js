@@ -8,9 +8,8 @@ axios( sourceURL ).then((response) => {
   // console.log(response.data);
   const html = response.data;
 
-  const $rows = $('tr', html);
+  const $rows = $('table table tr:nth-child(n+2)', html);   // console: node scraper.js | head
   // console.log( $rows.length );
-
 
   //  2. Interate through the results
   $rows.each(function () {
