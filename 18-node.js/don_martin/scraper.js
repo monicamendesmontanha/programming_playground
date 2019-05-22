@@ -1,16 +1,27 @@
 const axios = require('axios');
+const $ = require('cheerio');
 
 const sourceURL = 'https://www.madcoversite.com/dmd-alphabetical.html';
 
-
-//  1. fetch the URL
+//  1. Fetch the URL
 axios( sourceURL ).then((response) => {
-  console.log(response.data );
+  // console.log(response.data);
+  const html = response.data;
+
+  const $rows = $('tr', html);
+  // console.log( $rows.length );
+
+
+  //  2. Interate through the results
+  $rows.each(function () {
+    $cells = $('td', this);   // An array of 4 <td> cells.
+    console.log( $cells.eq(0).text() );
+  });
+
 });
 
 
-//  2. interate through the results
-//  3. push each sound into an array
-//  4. save the array to a file
+//  3. Push each sound into an array
+//  4. Save the array to a file
 
 
