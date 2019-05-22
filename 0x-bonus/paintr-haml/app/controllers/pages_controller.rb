@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def hamldemo
+    @lucky_number = Random.rand(40)
   end
 end
