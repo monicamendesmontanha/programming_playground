@@ -14,12 +14,11 @@ export default ({children}) => (
       <Link to="/">
         <h3 style={{display: 'inline'}}>My Site</h3>
       </Link>
-    </header>
-
     <ul style={{display: 'inline'}}>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/contact">Contact</NavLink>
     </ul>
+    </header>
     {children}
   </div>
 );
