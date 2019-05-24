@@ -22,3 +22,7 @@ console.log( unboundGreeting.call( {fullName: 'Harpo Marx'} ) );
 // .apply() //////////////////////////////////////
 const numbers = [1, 4, 6, 8, 9, 1001];
 
+// es5
+Math.max.apply( Math, numbers ); // .apply will turn an array of args into a list of args.
+// es6
+Math.max( ...numbers ); // the ... spread operator also turns an array of args into a list of args.
