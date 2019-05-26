@@ -22,5 +22,6 @@ This is a project for playing and learning through some exercises.
 - [x] Regular Expressions
 - [x] Vue.js
 - [x] Node.js
+- [x] Express
 
 
