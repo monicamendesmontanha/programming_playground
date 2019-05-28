@@ -15,3 +15,15 @@ wait(2000).then(() => {
 }).then(() => {
   console.log('also runs');
 });
+
+/////////////////////////
+// options using async
+////////////////////////
+
+// async function wait() {
+
+//   await { then: resolve => setTimeout(() => resolve(), 2000) };
+//   console.log('2 seconds has passed');
+// }
+
+// wait();
