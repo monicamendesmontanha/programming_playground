@@ -1,6 +1,6 @@
 function bucketSort(items, numBuckets=5) {
 
-  if(items.length === 0) {
+  if (items.length === 0) {
     return items;
   }
 
@@ -18,35 +18,33 @@ function bucketSort(items, numBuckets=5) {
     }
   }
 
-  // make buckets between min and max
+  // make buckets every bucketSize between min and max
   const bucketCount = Math.floor((max - min) / bucketSize) + 1;
-  const buckets = new Array(bucketSize);
+  const buckets = new Array(bucketCount);
 
   for (let i = 0; i < buckets.length; i++) {
     buckets[i] = [];
   }
 
-  // divide the array into buckets
+  // divide the into buckets
   for (let i = 0; i < items.length; i++) {
-    buckets[ Math.floor( (items[i] - min) / bucketSize) ].push( items[1] );
+    buckets[ Math.floor( (items[i] - min) / bucketSize ) ].push( items[i] );
   }
 
-  // sort the inidividual buckets
+  // sort the individual buckets
   items = [];
-  for(let i = 0; i < buckets.length; i++) {
+  for (let i = 0; i < buckets.length; i++) {
     buckets[i] = classicSort( buckets[i] );
-
-    // merge the buckets back together
     items = items.concat( buckets[i] );
   }
 
   return items;
 }
 
-const classicSort = (array) => {
-  return array.sort((a, b) => {
-    //return negative, positive or 0: in order, out of order or equal
-    return a - b
+const classicSort = (a) => {
+  return a.sort((a, b) => {
+    // return negative, positive or 0: in order, out of order or equal
+    return a - b;
   });
 };
 
