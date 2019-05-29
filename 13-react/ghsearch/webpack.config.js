@@ -16,7 +16,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.js/i,
+        test: /\.css$/i,
+        use: ['to-string-loader', 'css-loader'],
+      },
+      {
+        test: /.jsx?/i,
         loader: 'babel-loader',
         options: {
           presets: ['@babel/preset-env'],

@@ -6,8 +6,6 @@ import Home from './components/Home';
 import Search from './components/Search';
 import Profile from './components/Profile';
 
-import './index.css';
-
 import 'preact/devtools';
 
 const Routes = (
