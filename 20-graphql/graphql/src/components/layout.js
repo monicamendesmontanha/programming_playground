@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import { rhythm } from '../utils/typography';
 
 
-export default (props) => (
+export default ({children}) => (
   <div css={css`
     margin: 0 auto;
     max-width: 700px;
@@ -32,5 +32,7 @@ export default (props) => (
     >
       About
     </Link>
+    {children}
+
   </div>
 )
