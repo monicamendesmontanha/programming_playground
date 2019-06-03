@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'This is not a bill murray site'
+  },
   plugins: [
     'gatsby-plugin-emotion',
     {
