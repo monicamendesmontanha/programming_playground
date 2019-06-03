@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class Counter extends Component {
   _increment = () => {
-    // TODO
+    this.props.dispatch({type: 'INCREMENT'});
   }
 
   _decrement = () => {
-    // TODO
+    this.props.dispatch({type: 'DECREMENT'});
   }
 
   render() {
@@ -23,4 +24,11 @@ class Counter extends Component {
   }
 }
 
-export default Counter;
+const mapStateToProps = (state) => {
+  return {
+    count: state.count
+  };
+}
+
+// export default Counter;
+export default connect(mapStateToProps)(Counter);   // Higher order functions (hof)
