@@ -9,6 +9,13 @@ module.exports = {
     title: 'This is not a bill murray site'
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',
