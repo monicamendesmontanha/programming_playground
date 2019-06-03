@@ -10,6 +10,7 @@ This is a project for playing and learning through some exercises.
 - [x] Ruby
 - [x] Server
 - [x] Databases
+- [x] Rails
 - [x] SQL
 - [x] elm
 - [x] TDD
@@ -23,5 +24,6 @@ This is a project for playing and learning through some exercises.
 - [x] Vue.js
 - [x] Node.js
 - [x] Express
+- [x] Redux
 
 
